@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order List Dashboard - FreshCart</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="./css/css.css">
+    <link rel="stylesheet" href="./js/js.js">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body>
+    <div class="position-absolute" id="menuL">
+        <div class="top-title fw-bolder text-center w-100 sticky-top d-flex justify-content-center align-items-center">
+            <div id="menuL-logo"></div>
+        </div>
+        <div class="side-nav w-100">
+            <div class=" text-start px-3 py-xl-2 menuL-title"><span>NAVIGATION</span></div>
+
+            <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent6" aria-controls="navbarToggleExternalContent6"
+                aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" viewBox="0 0 24 24">
+                    <g fill="none" stroke="#8391a2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <path d="m3 9l9-7l9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                        <path d="M9 22V12h6v10" />
+                    </g>
+                </svg><span class="ms-4">Dashboards</span><span class="badge bg-success float-end">5</span></button>
+            <div class="collapse" id="navbarToggleExternalContent6">
+                <div class="option-list">
+                    <div class="px-3 pb-2">Analytics</div>
+                    <div class="px-3 py-2">Ecommerce</div>
+                    <div class="px-3 py-2">Projects</div>
+                    <div class="px-3 py-2">CRM</div>
+                    <div class="px-3 pt-2">E-Wallet</div>
+                </div>
+            </div>
+
+            <div class=" text-start px-3 py-xl-2 menuL-title"><span>APPS</span></div>
+            <div class=" text-start px-4 py-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    viewBox="0 0 24 24">
+                    <path fill="#8391a2"
+                        d="M19 4h-2V3a1 1 0 0 0-2 0v1H9V3a1 1 0 0 0-2 0v1H5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm1 15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-7h16Zm0-9H4V7a1 1 0 0 1 1-1h2v1a1 1 0 0 0 2 0V6h6v1a1 1 0 0 0 2 0V6h2a1 1 0 0 1 1 1Z" />
+                </svg><span class="ms-4">Calendar</span></div>
+            <div class=" text-start px-4 py-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    viewBox="0 0 16 16">
+                    <path fill="#8391a2" fill-rule="evenodd"
+                        d="M2 0a2 2 0 0 0-2 2v10.06l1.28-1.28l1.53-1.53H4V11a2 2 0 0 0 2 2h7l1.5 1.5L16 16V6a2 2 0 0 0-2-2h-2V2a2 2 0 0 0-2-2H2Zm8.5 4V2a.5.5 0 0 0-.5-.5H2a.5.5 0 0 0-.5.5v6.44l.47-.47l.22-.22H4V6a2 2 0 0 1 2-2h4.5Zm3.56 7.94l.44.439V6a.5.5 0 0 0-.5-.5H6a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 .5.5h7.621l.44.44Z"
+                        clip-rule="evenodd" />
+                </svg> <span class="ms-4">Chat</span></div>
+
+            <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent5" aria-controls="navbarToggleExternalContent5"
+                aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" viewBox="0 0 24 24">
+                    <path fill="#8391a2"
+                        d="m15.29 10.29l-2.78 2.78A2.09 2.09 0 0 0 12 13a2 2 0 0 0-2 2a2.09 2.09 0 0 0 .07.51l-.78.78a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l.78-.78A2.09 2.09 0 0 0 12 17a2 2 0 0 0 2-2a2.09 2.09 0 0 0-.07-.51l2.78-2.78a1 1 0 0 0-1.42-1.42ZM12 4A10 10 0 0 0 2 14a9.91 9.91 0 0 0 1.69 5.56a1 1 0 0 0 1.66-1.12a8 8 0 1 1 13.3 0a1 1 0 0 0 .27 1.39a1 1 0 0 0 .56.17a1 1 0 0 0 .83-.44A9.91 9.91 0 0 0 22 14A10 10 0 0 0 12 4Z" />
+                </svg><span class="ms-4">CRM</span><span class="badge bg-danger float-end">New</span></button>
+            <div class="collapse" id="navbarToggleExternalContent5">
+                <div class="option-list">
+                    <div class="px-3 pb-2">Projects</div>
+                    <div class="px-3 py-2">Orders List</div>
+                    <div class="px-3 py-2">Clients</div>
+                    <div class="px-3 pt-2">Management</div>
+                </div>
+            </div>
+
+            <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" viewBox="0 0 24 24">
+                    <path fill="#8391a2"
+                        d="M22 7.82a1.25 1.25 0 0 0 0-.19l-2-5A1 1 0 0 0 19 2H5a1 1 0 0 0-.93.63l-2 5a1.25 1.25 0 0 0 0 .19A.58.58 0 0 0 2 8a4 4 0 0 0 2 3.4V21a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-9.56A4 4 0 0 0 22 8a.58.58 0 0 0 0-.18ZM13 20h-2v-4h2Zm5 0h-3v-5a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v5H6v-8a4 4 0 0 0 3-1.38a4 4 0 0 0 6 0A4 4 0 0 0 18 12Zm0-10a2 2 0 0 1-2-2a1 1 0 0 0-2 0a2 2 0 0 1-4 0a1 1 0 0 0-2 0a2 2 0 0 1-4 .15L5.68 4h12.64L20 8.15A2 2 0 0 1 18 10Z" />
+                </svg><span class="ms-4">Ecommerce</span><span class="float-end"><img
+                        src="./img/round-chevron-right.svg" class="chevron-right" alt=""><img
+                        src="./img/chevron-down.svg" class="chevron-down" alt=""></span></button>
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="option-list">
+                    <div class="px-3 pb-2">Dragula</div>
+                    <div class="px-3 py-2">Range Slider</div>
+                    <div class="px-3 py-2">Ratings</div>
+                    <div class="px-3 py-2">Scrollbar</div>
+                    <div class="px-3 py-2">Scrollspy</div>
+                    <div class="px-3 pt-2">Treeview</div>
+                </div>
+            </div>
+
+            <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent2" aria-controls="navbarToggleExternalContent2"
+                aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" viewBox="0 0 24 24">
+                    <path fill="#8391a2"
+                        d="M19 4H5a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm-.41 2l-5.88 5.88a1 1 0 0 1-1.42 0L5.41 6ZM20 17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7.41l5.88 5.88a3 3 0 0 0 4.24 0L20 7.41Z" />
+                </svg><span class="ms-4">Email</span><span class="float-end"><img src="./img/round-chevron-right.svg"
+                        alt=""></span></button>
+            <div class="collapse" id="navbarToggleExternalContent2">
+                <div class="option-list">
+                    <div class="px-3 pb-2">Inbox</div>
+                    <div class="px-3 pt-2">Read Email</div>
+                </div>
+            </div>
+
+            <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent3" aria-controls="navbarToggleExternalContent3"
+                aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" viewBox="0 0 24 24">
+                    <path fill="#8391a2"
+                        d="M21 6h-4V5a3 3 0 0 0-3-3h-4a3 3 0 0 0-3 3v1H3a1 1 0 0 0-1 1v4a3 3 0 0 0 1 2.22V19a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-5.78A3 3 0 0 0 22 11V7a1 1 0 0 0-1-1ZM9 5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1H9Zm10 14a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-5h2v1a1 1 0 0 0 2 0v-1h6v1a1 1 0 0 0 2 0v-1h2Zm1-8a1 1 0 0 1-1 1h-2v-1a1 1 0 0 0-2 0v1H9v-1a1 1 0 0 0-2 0v1H5a1 1 0 0 1-1-1V8h16Z" />
+                </svg><span class="ms-4">Projects</span><span class="float-end"><img src="./img/round-chevron-right.svg"
+                        alt=""></span></button>
+            <div class="collapse" id="navbarToggleExternalContent3">
+                <div class="option-list">
+                    <div class="px-3 pb-2">List</div>
+                    <div class="px-3 py-2">Details</div>
+                    <div class="px-3 py-2">Gantt<span class="badge bg-light text-dark float-end">New</span></div>
+                    <div class="px-3 pt-2">Create Project</div>
+                </div>
+            </div>
+            <div class=" text-start px-4 py-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    viewBox="0 0 24 24">
+                    <path fill="#8391a2"
+                        d="M2.88 16.88a3 3 0 0 0 0 4.24a3 3 0 0 0 4.24 0a3 3 0 0 0-4.24-4.24Zm2.83 2.83a1 1 0 0 1-1.42-1.42a1 1 0 0 1 1.42 0a1 1 0 0 1 0 1.42ZM5 12a1 1 0 0 0 0 2a5 5 0 0 1 5 5a1 1 0 0 0 2 0a7 7 0 0 0-7-7Zm0-4a1 1 0 0 0 0 2a9 9 0 0 1 9 9a1 1 0 0 0 2 0a11.08 11.08 0 0 0-3.22-7.78A11.08 11.08 0 0 0 5 8Zm10.61.39A15.11 15.11 0 0 0 5 4a1 1 0 0 0 0 2a13 13 0 0 1 13 13a1 1 0 0 0 2 0a15.11 15.11 0 0 0-4.39-10.61Z" />
+                </svg><span class="ms-4">Social Feed</span></div>
+
+            <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent4" aria-controls="navbarToggleExternalContent4"
+                aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" viewBox="0 0 24 24">
+                    <path fill="#8391a2"
+                        d="M15 14H9a1 1 0 0 0 0 2h6a1 1 0 0 0 0-2Zm0-4h-4a1 1 0 0 0 0 2h4a1 1 0 0 0 0-2Zm2-6h-1.18A3 3 0 0 0 13 2h-2a3 3 0 0 0-2.82 2H7a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm-7 1a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v1h-4Zm8 14a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1v1a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V6h1a1 1 0 0 1 1 1Z" />
+                </svg><span class="ms-4">Tasks</span><span class="float-end"><img src="./img/round-chevron-right.svg"
+                        alt=""></span></button>
+            <div class="collapse" id="navbarToggleExternalContent4">
+                <div class="option-list">
+                    <div class="px-3 pb-2">List</div>
+                    <div class="px-3 py-2">Details</div>
+                    <div class="px-3 pt-2">Kanban Board</div>
+                </div>
+            </div>
+
+            <div class=" text-start px-4 py-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    viewBox="0 0 24 24">
+                    <path fill="#8391a2"
+                        d="M14 12.5h-1v-1a1 1 0 0 0-2 0v1h-1a1 1 0 0 0 0 2h1v1a1 1 0 0 0 2 0v-1h1a1 1 0 0 0 0-2Zm5-7h-6.28l-.32-1a3 3 0 0 0-2.84-2H5a3 3 0 0 0-3 3v13a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-10a3 3 0 0 0-3-3Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-13a1 1 0 0 1 1-1h4.56a1 1 0 0 1 .95.68l.54 1.64a1 1 0 0 0 .95.68h7a1 1 0 0 1 1 1Z" />
+                </svg><span class="ms-4">File Manager</span></div>
+            <div class=" text-start px-3 py-xl-2 menuL-title"><span>CUSTOM</span></div>
+
+            <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent7" aria-controls="navbarToggleExternalContent7"
+                aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" viewBox="0 0 24 24">
+                    <path fill="#8391a2"
+                        d="M16 20H8a3 3 0 0 1-3-3V7a1 1 0 0 0-2 0v10a5 5 0 0 0 5 5h8a1 1 0 0 0 0-2Zm5-11.06a1.31 1.31 0 0 0-.06-.27v-.09a1.07 1.07 0 0 0-.19-.28l-6-6a1.07 1.07 0 0 0-.28-.19h-.09L14.06 2H10a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8.94Zm-6-3.53L17.59 8H16a1 1 0 0 1-1-1ZM19 15a1 1 0 0 1-1 1h-8a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h3v3a3 3 0 0 0 3 3h3Z" />
+                </svg><span class="ms-4">Pages</span><span class="float-end"><img src="./img/round-chevron-right.svg"
+                        alt=""></span></button>
+            <div class="collapse" id="navbarToggleExternalContent7">
+                <div class="option-list">
+                    <div class="px-3 pb-2">Profile</div>
+                    <div class="px-3 py-2">Profile 2</div>
+                    <div class="px-3 py-2">Invoice</div>
+                    <div class="px-3 py-2">FAQ</div>
+                    <div class="px-3 py-2">Pricing</div>
+                    <div class="px-3 py-2">Maintenance</div>
+                    <button class=" text-start pe-4 py-2 w-100" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggleExternalContent8" aria-controls="navbarToggleExternalContent8"
+                        aria-expanded="false" aria-label="Toggle navigation"><span class="ms-2"> Authentication
+                        </span><span class="float-end"><img src="./img/round-chevron-right.svg" alt=""></span></button>
+                    <div class="collapse" id="navbarToggleExternalContent8">
+                        <div class="option-list">
+                            <div class="px-0 py-2">Login</div>
+                            <div class="px-0 py-2">Login 2</div>
+                            <div class="px-0 py-2">Register</div>
+                            <div class="px-0 py-2">Register 2</div>
+                            <div class="px-0 py-2">Logout</div>
+                            <div class="px-0 py-2">Logout 2</div>
+                            <div class="px-0 py-2">Recover Password</div>
+                            <div class="px-0 py-2">Recover Password 2</div>
+                            <div class="px-0 py-2">Lock Screen</div>
+                            <div class="px-0 py-2">Lock Screen 2</div>
+                            <div class="px-0 py-2">Confirm Mail</div>
+                            <div class="px-0 py-2">Confirm Mail 2</div>
+                        </div>
+                    </div>
+                    <button class=" text-start pe-4 py-2 w-100 ms-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggleExternalContent9" aria-controls="navbarToggleExternalContent9"
+                        aria-expanded="false" aria-label="Toggle navigation"><span class="ms-2">Error
+                        </span><span class="float-end"><img src="./img/round-chevron-right.svg" alt=""></span></button>
+                    <div class="collapse" id="navbarToggleExternalContent9">
+                        <div class="option-list">
+                            <div class="px-0 py-2">Error 404</div>
+                            <div class="px-0 py-2">Error 404-alt</div>
+                            <div class="px-0 py-2">Error 500</div>
+                        </div>
+                    </div>
+                    <div class="px-3 py-2">Starter Page</div>
+                    <div class="px-3 py-2">With Preloader</div>
+                    <div class="px-3 pt-2">Timeline</div>
+                </div>
+            </div>
+
+
+            <div class=" text-start px-4 py-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    viewBox="0 0 24 24">
+                    <path fill="#8391a2"
+                        d="M21.41 8.64v-.05a10 10 0 0 0-18.78 0s0 0 0 .05a9.86 9.86 0 0 0 0 6.72v.05a10 10 0 0 0 18.78 0s0 0 0-.05a9.86 9.86 0 0 0 0-6.72ZM4.26 14a7.82 7.82 0 0 1 0-4h1.86a16.73 16.73 0 0 0 0 4Zm.82 2h1.4a12.15 12.15 0 0 0 1 2.57A8 8 0 0 1 5.08 16Zm1.4-8h-1.4a8 8 0 0 1 2.37-2.57A12.15 12.15 0 0 0 6.48 8ZM11 19.7A6.34 6.34 0 0 1 8.57 16H11Zm0-5.7H8.14a14.36 14.36 0 0 1 0-4H11Zm0-6H8.57A6.34 6.34 0 0 1 11 4.3Zm7.92 0h-1.4a12.15 12.15 0 0 0-1-2.57A8 8 0 0 1 18.92 8ZM13 4.3A6.34 6.34 0 0 1 15.43 8H13Zm0 15.4V16h2.43A6.34 6.34 0 0 1 13 19.7Zm2.86-5.7H13v-4h2.86a14.36 14.36 0 0 1 0 4Zm.69 4.57a12.15 12.15 0 0 0 1-2.57h1.4a8 8 0 0 1-2.4 2.57ZM19.74 14h-1.86a16.16 16.16 0 0 0 .12-2a16.28 16.28 0 0 0-.12-2h1.86a7.82 7.82 0 0 1 0 4Z" />
+                </svg><span class="ms-4">Loading</span><span class="badge bg-secondary float-end">New</span></div>
+
+            <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent10" aria-controls="navbarToggleExternalContent10"
+                aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" viewBox="0 0 24 24">
+                    <path fill="#8391a2"
+                        d="M10 5a1 1 0 1 0 1 1a1 1 0 0 0-1-1ZM6 5a1 1 0 1 0 1 1a1 1 0 0 0-1-1Zm8 0a1 1 0 1 0 1 1a1 1 0 0 0-1-1Zm6-4H4a3 3 0 0 0-3 3v16a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3Zm1 19a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-9h18Zm0-11H3V4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1Z" />
+                </svg><span class="ms-4">Layouts</span><span class="float-end"><img src="./img/round-chevron-right.svg"
+                        alt=""></span></button>
+            <div class="collapse" id="navbarToggleExternalContent10">
+                <div class="option-list">
+                    <div class="px-3 pb-2">Horizontal</div>
+                    <div class="px-3 py-2">Detached</div>
+                    <div class="px-3 py-2">Full View</div>
+                    <div class="px-3 py-2">Fullscreen View</div>
+                    <div class="px-3 py-2">Hover Menu</div>
+                    <div class="px-3 py-2">Compact</div>
+                    <div class="px-3 pt-2">Icon View</div>
+                </div>
+            </div>
+
+            <div class=" text-start px-3 py-xl-2 menuL-title"><span>COMPONENTS</span></div>
+
+            <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent11" aria-controls="navbarToggleExternalContent11"
+                aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" viewBox="0 0 24 24">
+                    <path fill="#8391a2"
+                        d="M20.49 7.52a.19.19 0 0 1 0-.08a.17.17 0 0 1 0-.07v-.09l-.06-.15a.48.48 0 0 0-.09-.11l-.09-.08h-.05l-3.94-2.49l-3.72-2.3a.85.85 0 0 0-.29-.15h-.08a.82.82 0 0 0-.27 0h-.1a1.13 1.13 0 0 0-.33.13L4 6.78l-.09.07l-.09.08l-.1.07l-.05.06l-.06.15v.15a.69.69 0 0 0 0 .2v8.73a1 1 0 0 0 .47.85l7.5 4.64l.15.06h.08a.86.86 0 0 0 .52 0h.08l.15-.06L20 17.21a1 1 0 0 0 .47-.85V7.63s.02-.07.02-.11ZM12 4.17l1.78 1.1l-5.59 3.46l-1.79-1.1Zm-1 15l-5.5-3.36V9.42l5.5 3.4Zm1-8.11l-1.91-1.15l5.59-3.47l1.92 1.19Zm6.5 4.72L13 19.2v-6.38l5.5-3.4Z" />
+                </svg><span class="ms-4">Base UI</span><span class="float-end"><img src="./img/round-chevron-right.svg"
+                        alt=""></span></button>
+            <div class="collapse" id="navbarToggleExternalContent11">
+                <div class="option-list">
+                    <div class="px-3 pb-2">Accordions & Collapse</div>
+                    <div class="px-3 py-2">Alerts</div>
+                    <div class="px-3 py-2">Avatars</div>
+                    <div class="px-3 py-2">Badges</div>
+                    <div class="px-3 py-2">Breadcrumb</div>
+                    <div class="px-3 py-2">Buttons</div>
+                    <div class="px-3 py-2">Horizontal</div>
+                    <div class="px-3 py-2">Cards</div>
+                    <div class="px-3 py-2">Carousel</div>
+                    <div class="px-3 py-2">Dropdowns</div>
+                    <div class="px-3 py-2">Embed Video</div>
+                    <div class="px-3 py-2">Grid</div>
+                    <div class="px-3 py-2">List Group</div>
+                    <div class="px-3 py-2">Modals</div>
+                    <div class="px-3 py-2">Notifications</div>
+                    <div class="px-3 py-2">Offcanvas</div>
+                    <div class="px-3 py-2">Placeholders</div>
+                    <div class="px-3 py-2">Pagination</div>
+                    <div class="px-3 py-2">Popovers</div>
+                    <div class="px-3 py-2">Progress</div>
+                    <div class="px-3 py-2">Ribbons</div>
+                    <div class="px-3 py-2">Spinners</div>
+                    <div class="px-3 py-2">Tabs</div>
+                    <div class="px-3 py-2">Tooltips</div>
+                    <div class="px-3 py-2">Links</div>
+                    <div class="px-3 py-2">Typography</div>
+                    <div class="px-3 pt-2">Utilities</div>
+                </div>
+            </div>
+
+
+            <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent12" aria-controls="navbarToggleExternalContent12"
+                aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" viewBox="0 0 24 24">
+                    <path fill="#8391a2"
+                        d="M19 2H5a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3Zm-9 2h4v3.13l-1.45-1a1 1 0 0 0-1.1 0l-1.45 1Zm10 15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h3v5a1 1 0 0 0 .53.88a1 1 0 0 0 1-.05L12 8.2l2.45 1.63A1 1 0 0 0 16 9V4h3a1 1 0 0 1 1 1Z" />
+                </svg><span class="ms-4">Extended UI</span><span class="float-end"><img
+                        src="./img/round-chevron-right.svg" alt=""></span></button>
+            <div class="collapse" id="navbarToggleExternalContent12">
+                <div class="option-list">
+                    <div class="px-3 pb-2">Dragula</div>
+                    <div class="px-3 py-2">Range Slider</div>
+                    <div class="px-3 py-2">Ratings</div>
+                    <div class="px-3 py-2">Scrollbar</div>
+                    <div class="px-3 py-2">Scrollspy</div>
+                    <div class="px-3 pt-2">Treeview</div>
+                </div>
+            </div>
+
+            <div class=" text-start px-4 py-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    viewBox="0 0 24 24">
+                    <path fill="#8391a2"
+                        d="m2.5 8.86l9 5.2a1 1 0 0 0 1 0l9-5.2A1 1 0 0 0 22 8a1 1 0 0 0-.5-.87l-9-5.19a1 1 0 0 0-1 0l-9 5.19A1 1 0 0 0 2 8a1 1 0 0 0 .5.86ZM12 4l7 4l-7 4l-7-4Zm8.5 7.17L12 16l-8.5-4.87a1 1 0 0 0-1.37.37a1 1 0 0 0 .37 1.36l9 5.2a1 1 0 0 0 1 0l9-5.2a1 1 0 0 0 .37-1.36a1 1 0 0 0-1.37-.37Zm0 4L12 20l-8.5-4.87a1 1 0 0 0-1.37.37a1 1 0 0 0 .37 1.36l9 5.2a1 1 0 0 0 1 0l9-5.2a1 1 0 0 0 .37-1.36a1 1 0 0 0-1.37-.37Z" />
+                </svg><span class="ms-4">Widgets</span></div>
+
+            <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent13" aria-controls="navbarToggleExternalContent13"
+                aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" viewBox="0 0 24 24">
+                    <path fill="#8391a2"
+                        d="M12 12a1 1 0 1 0 1 1a1 1 0 0 0-1-1Zm9.71-2.36a10 10 0 0 0-19.4 0a9.75 9.75 0 0 0 0 4.72a10 10 0 0 0 7.3 7.34a9.67 9.67 0 0 0 4.7 0a10 10 0 0 0 7.31-7.31a9.75 9.75 0 0 0 0-4.72ZM12 4a8 8 0 0 1 7.41 5H4.59A8 8 0 0 1 12 4Zm-8 8a8.26 8.26 0 0 1 .07-1H6v2H4.07A8.26 8.26 0 0 1 4 12Zm5 7.41A8 8 0 0 1 4.59 15H7a2 2 0 0 1 2 2Zm4 .52a8.26 8.26 0 0 1-1 .07a8.26 8.26 0 0 1-1-.07V18h2Zm.14-3.93h-2.28A4 4 0 0 0 8 13.14V11h8v2.14A4 4 0 0 0 13.14 16ZM15 19.41V17a2 2 0 0 1 2-2h2.41A8 8 0 0 1 15 19.41ZM19.93 13H18v-2h1.93a8.26 8.26 0 0 1 .07 1a8.26 8.26 0 0 1-.07 1Z" />
+                </svg><span class="ms-4">Icons</span><span class="float-end"><img src="./img/round-chevron-right.svg"
+                        alt=""></span></button>
+            <div class="collapse" id="navbarToggleExternalContent13">
+                <div class="option-list">
+                    <div class="px-3 pb-2">Remix Icons</div>
+                    <div class="px-3 py-2">Material Design</div>
+                    <div class="px-3 pt-2">Unicons</div>
+                </div>
+            </div>
+
+
+            <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent14" aria-controls="navbarToggleExternalContent14"
+                aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" viewBox="0 0 24 24">
+                    <path fill="#8391a2"
+                        d="M12 6a1 1 0 0 0-1 1v10a1 1 0 0 0 2 0V7a1 1 0 0 0-1-1Zm-5 6a1 1 0 0 0-1 1v4a1 1 0 0 0 2 0v-4a1 1 0 0 0-1-1Zm10-2a1 1 0 0 0-1 1v6a1 1 0 0 0 2 0v-6a1 1 0 0 0-1-1Zm2-8H5a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3Zm1 17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1Z" />
+                </svg><span class="ms-4">Charts</span><span class="float-end"><img src="./img/round-chevron-right.svg"
+                        alt=""></span></button>
+            <div class="collapse" id="navbarToggleExternalContent14">
+                <div class="option-list">
+                    <button class=" text-start pe-4 ps-2 pb-2 w-100" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggleExternalContent15" aria-controls="navbarToggleExternalContent15"
+                        aria-expanded="false" aria-label="Toggle navigation"><span class="ms-2"> Apex Charts
+                        </span><span class="float-end"><img src="./img/round-chevron-right.svg" alt=""></span></button>
+                    <div class="collapse" id="navbarToggleExternalContent15">
+                        <div class="option-list">
+                            <div class="px-0 pb-2">Area</div>
+                            <div class="px-0 py-2">Bar</div>
+                            <div class="px-0 py-2">Bubble</div>
+                            <div class="px-0 py-2">Candlestick</div>
+                            <div class="px-0 py-2">Column</div>
+                            <div class="px-0 py-2">Heatmap</div>
+                            <div class="px-0 py-2">Line</div>
+                            <div class="px-0 py-2">Mixed</div>
+                            <div class="px-0 py-2">Timeline</div>
+                            <div class="px-0 py-2">Boxplot</div>
+                            <div class="px-0 py-2">Pie</div>
+                            <div class="px-0 py-2">Radar</div>
+                            <div class="px-0 py-2">RadialBar</div>
+                            <div class="px-0 py-2">Scatter</div>
+                            <div class="px-0 py-2">Polar Area</div>
+                            <div class="px-0 pt-2">Sparklines</div>
+                        </div>
+                    </div>
+                    <button class=" text-start pe-4 ps-2 py-2 w-100" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggleExternalContent16" aria-controls="navbarToggleExternalContent16"
+                        aria-expanded="false" aria-label="Toggle navigation"><span class="ms-2"> ChartJS
+                        </span><span class="float-end"><img src="./img/round-chevron-right.svg" alt=""></span></button>
+                    <div class="collapse" id="navbarToggleExternalContent16">
+                        <div class="option-list">
+                            <div class="px-0 pb-2">Area</div>
+                            <div class="px-0 py-2">Bar</div>
+                            <div class="px-0 py-2">Line</div>
+                            <div class="px-0 pt-2">Other</div>
+                        </div>
+                    </div>
+                    <div class="px-3 py-2">Britecharts</div>
+                    <div class="px-3 pt-2">Sparklines</div>
+                </div>
+            </div>
+
+            <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent17" aria-controls="navbarToggleExternalContent17"
+                aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" viewBox="0 0 24 24">
+                    <path fill="#8391a2"
+                        d="M9 12h6a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1Zm1-6h4v4h-4Zm11 4h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2Zm-2-2h2a1 1 0 0 0 0-2h-2a1 1 0 0 0 0 2ZM3 8h2a1 1 0 0 0 0-2H3a1 1 0 0 0 0 2Zm0 4h2a1 1 0 0 0 0-2H3a1 1 0 0 0 0 2Zm18 2H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Zm-8 4H3a1 1 0 0 0 0 2h10a1 1 0 0 0 0-2Z" />
+                </svg><span class="ms-4">Forms</span><span class="float-end"><img src="./img/round-chevron-right.svg"
+                        alt=""></span></button>
+            <div class="collapse" id="navbarToggleExternalContent17">
+                <div class="option-list">
+                    <div class="px-3 pb-2">Basic Elements</div>
+                    <div class="px-3 py-2">Form Advanced</div>
+                    <div class="px-3 py-2">Validation</div>
+                    <div class="px-3 py-2">Wizard</div>
+                    <div class="px-3 py-2">File Uploads</div>
+                    <div class="px-3 pt-2">Editors</div>
+                </div>
+            </div>
+
+            <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent18" aria-controls="navbarToggleExternalContent18"
+                aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" viewBox="0 0 24 24">
+                    <path fill="#8391a2"
+                        d="M21 2H3a1 1 0 0 0-1 1v18a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1ZM8 20H4v-4h4Zm0-6H4v-4h4Zm0-6H4V4h4Zm6 12h-4v-4h4Zm0-6h-4v-4h4Zm0-6h-4V4h4Zm6 12h-4v-4h4Zm0-6h-4v-4h4Zm0-6h-4V4h4Z" />
+                </svg><span class="ms-4">Tables</span><span class="float-end"><img src="./img/round-chevron-right.svg"
+                        alt=""></span></button>
+            <div class="collapse" id="navbarToggleExternalContent18">
+                <div class="option-list">
+                    <div class="px-3 pb-2">Basic Tables</div>
+                    <div class="px-3 pt-2">Data Tables</div>
+                </div>
+            </div>
+
+            <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent19" aria-controls="navbarToggleExternalContent19"
+                aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" viewBox="0 0 24 24">
+                    <path fill="#8391a2"
+                        d="M18 4.48a8.45 8.45 0 0 0-12 12l5.27 5.28a1 1 0 0 0 1.42 0L18 16.43a8.45 8.45 0 0 0 0-11.95ZM16.57 15L12 19.59L7.43 15a6.46 6.46 0 1 1 9.14 0ZM9 7.41a4.32 4.32 0 0 0 0 6.1a4.31 4.31 0 0 0 7.36-3a4.24 4.24 0 0 0-1.26-3.05A4.3 4.3 0 0 0 9 7.41Zm4.69 4.68a2.33 2.33 0 1 1 .67-1.63a2.33 2.33 0 0 1-.72 1.63Z" />
+                </svg><span class="ms-4">Maps</span><span class="float-end"><img src="./img/round-chevron-right.svg"
+                        alt=""></span></button>
+            <div class="collapse" id="navbarToggleExternalContent19">
+                <div class="option-list">
+                    <div class="px-3 pb-2">Google Maps</div>
+                    <div class="px-3 pt-2">Vector Maps</div>
+                </div>
+            </div>
+
+            <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent20" aria-controls="navbarToggleExternalContent20"
+                aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" viewBox="0 0 24 24">
+                    <path fill="#8391a2"
+                        d="M14 12.5h-1v-1a1 1 0 0 0-2 0v1h-1a1 1 0 0 0 0 2h1v1a1 1 0 0 0 2 0v-1h1a1 1 0 0 0 0-2Zm5-7h-6.28l-.32-1a3 3 0 0 0-2.84-2H5a3 3 0 0 0-3 3v13a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-10a3 3 0 0 0-3-3Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-13a1 1 0 0 1 1-1h4.56a1 1 0 0 1 .95.68l.54 1.64a1 1 0 0 0 .95.68h7a1 1 0 0 1 1 1Z" />
+                </svg><span class="ms-4">Multi Level</span><span class="float-end"><img
+                        src="./img/round-chevron-right.svg" alt=""></span></button>
+            <div class="collapse" id="navbarToggleExternalContent20">
+                <div class="option-list">
+                    <button class=" text-start pe-4 ps-2 pb-2 w-100" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggleExternalContent21" aria-controls="navbarToggleExternalContent21"
+                        aria-expanded="false" aria-label="Toggle navigation"><span class="ms-2"> Second Level
+                        </span><span class="float-end"><img src="./img/round-chevron-right.svg" alt=""></span></button>
+                    <div class="collapse" id="navbarToggleExternalContent21">
+                        <div class="option-list">
+                            <div class="px-0 pb-2">Item 1</div>
+                            <div class="px-0 pt-2">Item 2</div>
+                        </div>
+                    </div>
+                    <button class=" text-start pe-4 ps-2 pt-2 w-100" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggleExternalContent22" aria-controls="navbarToggleExternalContent22"
+                        aria-expanded="false" aria-label="Toggle navigation"><span class="ms-2"> Third Level
+                        </span><span class="float-end"><img src="./img/round-chevron-right.svg" alt=""></span></button>
+                    <div class="collapse" id="navbarToggleExternalContent22">
+                        <div class="option-list">
+                            <div class="px-0 py-2">Item 1</div>
+                            <button class=" text-start pe-4 ps-0 pt-0 w-100" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarToggleExternalContent23"
+                                aria-controls="navbarToggleExternalContent23" aria-expanded="false"
+                                aria-label="Toggle navigation"><span class="ms-0">Item 2
+                                </span><span class="float-end"><img src="./img/round-chevron-right.svg"
+                                        alt=""></span></button>
+                            <div class="collapse" id="navbarToggleExternalContent23">
+                                <div class="option-list ps-4">
+                                    <div class="pe-2 pt-2">Item 2.1</div>
+                                    <div class="pe-2 pb-2">Item 2.2</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="help-box text-white text-center" id="help-box">
+                <a href="#" class="float-end close-btn text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
+                        <path fill="white"
+                            d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z" />
+                    </svg>
+                </a>
+                <img src="./img/help-icon.svg" height="90" alt="">
+                <h5 class="mt-3">Unlimited Access</h5>
+                <p class="mb-3">Upgrade to plan to get access to unlimited reports</p>
+                <a href="#" class="btn btn-secondary btn-sm">Upgrade</a>
+            </div>
+        </div>
+    </div>
+    <div class="p-0 position-relative" id="mainPage">
+        <nav class="navbar navbar-light  bg-white p-0 sticky-top d-flex  align-items-center">
+            <div class="container-fluid align-items-center">
+                <div class="navL d-flex">
+                    <div class=" d-md-none"><img src="./img/logo-sm.png" alt=""></div>
+                    <button class="navbar-toggler p-0 border-0 ms-2 me-4 type=" button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <form class="d-lg-flex d-none position-relative">
+                        <span class="mdi mdi-magnify search-icon"></span>
+                        <input class="form-control rounded-0 ps-5" id="search-area" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn rounded-0" type="submit" id="search">Search</button>
+                    </form>
+                </div>
+                <div class="cotainer d-flex justify-content-between align-items-center">
+                    <a class="navbar-brand ms-3 d-lg-none" href="#">
+                        <img src="./img/search-line.svg" alt="" width="22" height="22">
+                    </a>
+                    <a class="navbar-brand ms-2" href="#">
+                        <img src="./img/usa.jpg" alt="" width="20" height="16">
+                        <span class="en d-none d-lg-inline-block">English</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="d-none d-sm-inline"
+                            viewBox="0 0 24 24">
+                            <path fill="#6c757d" d="M7.41 8.58L12 13.17l4.59-4.59L18 10l-6 6l-6-6l1.41-1.42Z" />
+                        </svg>
+                    </a>
+
+                    <a class="navbar-brand ms-2" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+                            <path fill="#6c757d"
+                                d="M20 17h2v2H2v-2h2v-7a8 8 0 1 1 16 0v7Zm-2 0v-7a6 6 0 0 0-12 0v7h12Zm-9 4h6v2H9v-2Z" />
+                        </svg>
+                    </a>
+                    <a class="navbar-brand ms-2 d-none d-sm-block" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+                            <path fill="#6c757d"
+                                d="M7.5 11.5a4.5 4.5 0 1 1 0-9a4.5 4.5 0 0 1 0 9Zm0 10a4.5 4.5 0 1 1 0-9a4.5 4.5 0 0 1 0 9Zm10-10a4.5 4.5 0 1 1 0-9a4.5 4.5 0 0 1 0 9Zm0 10a4.5 4.5 0 1 1 0-9a4.5 4.5 0 0 1 0 9Zm-10-12a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5Zm0 10a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5Zm10-10a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5Zm0 10a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5Z" />
+                        </svg>
+                    </a>
+                    <a class="navbar-brand ms-2 d-none d-sm-block" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+                            <path fill="#6c757d"
+                                d="M3.34 17a10.017 10.017 0 0 1-.979-2.326a3 3 0 0 0 .003-5.347a9.99 9.99 0 0 1 2.5-4.337a3 3 0 0 0 4.632-2.674a9.99 9.99 0 0 1 5.007.003a3 3 0 0 0 4.632 2.671a10.056 10.056 0 0 1 2.503 4.336a3 3 0 0 0-.002 5.347a9.99 9.99 0 0 1-2.501 4.337a3 3 0 0 0-4.632 2.674a9.99 9.99 0 0 1-5.007-.002a3 3 0 0 0-4.631-2.672A10.018 10.018 0 0 1 3.339 17Zm5.66.196a4.992 4.992 0 0 1 2.25 2.77c.499.047 1 .048 1.499.002a4.993 4.993 0 0 1 2.25-2.772a4.993 4.993 0 0 1 3.526-.564c.29-.408.54-.843.748-1.298A4.993 4.993 0 0 1 18 12c0-1.26.47-2.437 1.273-3.334a8.152 8.152 0 0 0-.75-1.298A4.993 4.993 0 0 1 15 6.804a4.993 4.993 0 0 1-2.25-2.77c-.5-.047-1-.048-1.5-.001A4.993 4.993 0 0 1 9 6.804a4.993 4.993 0 0 1-3.526.564c-.29.408-.54.843-.747 1.298A4.993 4.993 0 0 1 6 12c0 1.26-.471 2.437-1.273 3.334a8.16 8.16 0 0 0 .75 1.298A4.993 4.993 0 0 1 9 17.196ZM12 15a3 3 0 1 1 0-6a3 3 0 0 1 0 6Zm0-2a1 1 0 1 0 0-2a1 1 0 0 0 0 2Z" />
+                        </svg>
+                    </a>
+                    <a class="navbar-brand ms-2 d-none d-sm-block" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+                            <path fill="#6c757d"
+                                d="M10 7a7 7 0 0 0 12 4.9v.1c0 5.523-4.477 10-10 10S2 17.523 2 12S6.477 2 12 2h.1A6.98 6.98 0 0 0 10 7Zm-6 5a8 8 0 0 0 15.062 3.762A9 9 0 0 1 8.238 4.938A7.999 7.999 0 0 0 4 12Z" />
+                        </svg>
+                    </a>
+                    <a class="navbar-brand ms-2 d-none d-md-block" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+                            <path fill="#6c757d"
+                                d="M8 3v2H4v4H2V3h6ZM2 21v-6h2v4h4v2H2Zm20 0h-6v-2h4v-4h2v6Zm0-12h-2V5h-4V3h6v6Z" />
+                        </svg>
+                    </a>
+                    <a class="navbar-brand ms-2 d-flex  justify-content-between bg-light align-items-center"
+                        id="logo-box" href="#">
+                        <div id="logo" class=""></div>
+                        <div id="logo-text" class="fs-6 ms-3 d-lg-block d-none"><b>Dominic Keller</b><br>
+                            <p>Founder</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="offcanvas offcanvas-start w-25 p-0" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div
+                        class="top-title fw-bolder text-center w-100 sticky-top d-flex justify-content-between align-items-center py-3 px-3">
+                        <div id="menuL-logo-2"></div>
+                        <button type="button" class="text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><img
+                                src="./img/round-close.svg" class="m-0" alt=""></button>
+                    </div>
+                    <div class="side-nav-2 w-100 ">
+                        <div class=" text-start px-3 py-xl-2 menuL-title"><span>NAVIGATION</span></div>
+
+                        <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent6" aria-controls="navbarToggleExternalContent6"
+                            aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" viewBox="0 0 24 24">
+                                <g fill="none" stroke="#8391a2" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2">
+                                    <path d="m3 9l9-7l9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                                    <path d="M9 22V12h6v10" />
+                                </g>
+                            </svg><span class="ms-4">Dashboards</span><span
+                                class="badge bg-success float-end">5</span></button>
+                        <div class="collapse" id="navbarToggleExternalContent6">
+                            <div class="option-list">
+                                <div class="px-3 pb-2">Analytics</div>
+                                <div class="px-3 py-2">Ecommerce</div>
+                                <div class="px-3 py-2">Projects</div>
+                                <div class="px-3 py-2">CRM</div>
+                                <div class="px-3 pt-2">E-Wallet</div>
+                            </div>
+                        </div>
+
+                        <div class=" text-start px-3 py-xl-2 menuL-title"><span>APPS</span></div>
+                        <div class=" text-start px-4 py-3"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" viewBox="0 0 24 24">
+                                <path fill="#8391a2"
+                                    d="M19 4h-2V3a1 1 0 0 0-2 0v1H9V3a1 1 0 0 0-2 0v1H5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm1 15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-7h16Zm0-9H4V7a1 1 0 0 1 1-1h2v1a1 1 0 0 0 2 0V6h6v1a1 1 0 0 0 2 0V6h2a1 1 0 0 1 1 1Z" />
+                            </svg><span class="ms-4">Calendar</span></div>
+                        <div class=" text-start px-4 py-3"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" viewBox="0 0 16 16">
+                                <path fill="#8391a2" fill-rule="evenodd"
+                                    d="M2 0a2 2 0 0 0-2 2v10.06l1.28-1.28l1.53-1.53H4V11a2 2 0 0 0 2 2h7l1.5 1.5L16 16V6a2 2 0 0 0-2-2h-2V2a2 2 0 0 0-2-2H2Zm8.5 4V2a.5.5 0 0 0-.5-.5H2a.5.5 0 0 0-.5.5v6.44l.47-.47l.22-.22H4V6a2 2 0 0 1 2-2h4.5Zm3.56 7.94l.44.439V6a.5.5 0 0 0-.5-.5H6a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 .5.5h7.621l.44.44Z"
+                                    clip-rule="evenodd" />
+                            </svg> <span class="ms-4">Chat</span></div>
+
+                        <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent5" aria-controls="navbarToggleExternalContent5"
+                            aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" viewBox="0 0 24 24">
+                                <path fill="#8391a2"
+                                    d="m15.29 10.29l-2.78 2.78A2.09 2.09 0 0 0 12 13a2 2 0 0 0-2 2a2.09 2.09 0 0 0 .07.51l-.78.78a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l.78-.78A2.09 2.09 0 0 0 12 17a2 2 0 0 0 2-2a2.09 2.09 0 0 0-.07-.51l2.78-2.78a1 1 0 0 0-1.42-1.42ZM12 4A10 10 0 0 0 2 14a9.91 9.91 0 0 0 1.69 5.56a1 1 0 0 0 1.66-1.12a8 8 0 1 1 13.3 0a1 1 0 0 0 .27 1.39a1 1 0 0 0 .56.17a1 1 0 0 0 .83-.44A9.91 9.91 0 0 0 22 14A10 10 0 0 0 12 4Z" />
+                            </svg><span class="ms-4 ">CRM</span><span
+                                class="badge bg-danger float-end">New</span></button>
+                        <div class="collapse" id="navbarToggleExternalContent5">
+                            <div class="option-list">
+                                <div class="px-3 pb-2">Projects</div>
+                                <div class="px-3 py-2">Orders List</div>
+                                <div class="px-3 py-2">Clients</div>
+                                <div class="px-3 pt-2">Management</div>
+                            </div>
+                        </div>
+
+                        <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                            aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" viewBox="0 0 24 24">
+                                <path fill="#8391a2"
+                                    d="M22 7.82a1.25 1.25 0 0 0 0-.19l-2-5A1 1 0 0 0 19 2H5a1 1 0 0 0-.93.63l-2 5a1.25 1.25 0 0 0 0 .19A.58.58 0 0 0 2 8a4 4 0 0 0 2 3.4V21a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-9.56A4 4 0 0 0 22 8a.58.58 0 0 0 0-.18ZM13 20h-2v-4h2Zm5 0h-3v-5a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v5H6v-8a4 4 0 0 0 3-1.38a4 4 0 0 0 6 0A4 4 0 0 0 18 12Zm0-10a2 2 0 0 1-2-2a1 1 0 0 0-2 0a2 2 0 0 1-4 0a1 1 0 0 0-2 0a2 2 0 0 1-4 .15L5.68 4h12.64L20 8.15A2 2 0 0 1 18 10Z" />
+                            </svg><span class="ms-4">Ecommerce</span><span class="float-end"><img
+                                    src="./img/round-chevron-right.svg" class="chevron-right" alt=""><img
+                                    src="./img/chevron-down.svg" class="chevron-down" alt=""></span></button>
+                        <div class="collapse" id="navbarToggleExternalContent">
+                            <div class="option-list">
+                                <div class="px-3 pb-2">Dragula</div>
+                                <div class="px-3 py-2">Range Slider</div>
+                                <div class="px-3 py-2">Ratings</div>
+                                <div class="px-3 py-2">Scrollbar</div>
+                                <div class="px-3 py-2">Scrollspy</div>
+                                <div class="px-3 pt-2">Treeview</div>
+                            </div>
+                        </div>
+
+                        <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent2" aria-controls="navbarToggleExternalContent2"
+                            aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" viewBox="0 0 24 24">
+                                <path fill="#8391a2"
+                                    d="M19 4H5a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm-.41 2l-5.88 5.88a1 1 0 0 1-1.42 0L5.41 6ZM20 17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7.41l5.88 5.88a3 3 0 0 0 4.24 0L20 7.41Z" />
+                            </svg><span class="ms-4">Email</span><span class="float-end"><img
+                                    src="./img/round-chevron-right.svg" alt=""></span></button>
+                        <div class="collapse" id="navbarToggleExternalContent2">
+                            <div class="option-list">
+                                <div class="px-3 pb-2">Inbox</div>
+                                <div class="px-3 pt-2">Read Email</div>
+                            </div>
+                        </div>
+
+                        <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent3" aria-controls="navbarToggleExternalContent3"
+                            aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" viewBox="0 0 24 24">
+                                <path fill="#8391a2"
+                                    d="M21 6h-4V5a3 3 0 0 0-3-3h-4a3 3 0 0 0-3 3v1H3a1 1 0 0 0-1 1v4a3 3 0 0 0 1 2.22V19a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-5.78A3 3 0 0 0 22 11V7a1 1 0 0 0-1-1ZM9 5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1H9Zm10 14a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-5h2v1a1 1 0 0 0 2 0v-1h6v1a1 1 0 0 0 2 0v-1h2Zm1-8a1 1 0 0 1-1 1h-2v-1a1 1 0 0 0-2 0v1H9v-1a1 1 0 0 0-2 0v1H5a1 1 0 0 1-1-1V8h16Z" />
+                            </svg><span class="ms-4">Projects</span><span class="float-end"><img
+                                    src="./img/round-chevron-right.svg" alt=""></span></button>
+                        <div class="collapse" id="navbarToggleExternalContent3">
+                            <div class="option-list">
+                                <div class="px-3 pb-2">List</div>
+                                <div class="px-3 py-2">Details</div>
+                                <div class="px-3 py-2">Gantt<span class="badge bg-light text-dark float-end">New</span>
+                                </div>
+                                <div class="px-3 pt-2">Create Project</div>
+                            </div>
+                        </div>
+                        <div class=" text-start px-4 py-3"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" viewBox="0 0 24 24">
+                                <path fill="#8391a2"
+                                    d="M2.88 16.88a3 3 0 0 0 0 4.24a3 3 0 0 0 4.24 0a3 3 0 0 0-4.24-4.24Zm2.83 2.83a1 1 0 0 1-1.42-1.42a1 1 0 0 1 1.42 0a1 1 0 0 1 0 1.42ZM5 12a1 1 0 0 0 0 2a5 5 0 0 1 5 5a1 1 0 0 0 2 0a7 7 0 0 0-7-7Zm0-4a1 1 0 0 0 0 2a9 9 0 0 1 9 9a1 1 0 0 0 2 0a11.08 11.08 0 0 0-3.22-7.78A11.08 11.08 0 0 0 5 8Zm10.61.39A15.11 15.11 0 0 0 5 4a1 1 0 0 0 0 2a13 13 0 0 1 13 13a1 1 0 0 0 2 0a15.11 15.11 0 0 0-4.39-10.61Z" />
+                            </svg><span class="ms-4">Social Feed</span></div>
+
+                        <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent4" aria-controls="navbarToggleExternalContent4"
+                            aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" viewBox="0 0 24 24">
+                                <path fill="#8391a2"
+                                    d="M15 14H9a1 1 0 0 0 0 2h6a1 1 0 0 0 0-2Zm0-4h-4a1 1 0 0 0 0 2h4a1 1 0 0 0 0-2Zm2-6h-1.18A3 3 0 0 0 13 2h-2a3 3 0 0 0-2.82 2H7a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm-7 1a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v1h-4Zm8 14a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1v1a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V6h1a1 1 0 0 1 1 1Z" />
+                            </svg><span class="ms-4">Tasks</span><span class="float-end"><img
+                                    src="./img/round-chevron-right.svg" alt=""></span></button>
+                        <div class="collapse" id="navbarToggleExternalContent4">
+                            <div class="option-list">
+                                <div class="px-3 pb-2">List</div>
+                                <div class="px-3 py-2">Details</div>
+                                <div class="px-3 pt-2">Kanban Board</div>
+                            </div>
+                        </div>
+
+                        <div class=" text-start px-4 py-3"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" viewBox="0 0 24 24">
+                                <path fill="#8391a2"
+                                    d="M14 12.5h-1v-1a1 1 0 0 0-2 0v1h-1a1 1 0 0 0 0 2h1v1a1 1 0 0 0 2 0v-1h1a1 1 0 0 0 0-2Zm5-7h-6.28l-.32-1a3 3 0 0 0-2.84-2H5a3 3 0 0 0-3 3v13a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-10a3 3 0 0 0-3-3Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-13a1 1 0 0 1 1-1h4.56a1 1 0 0 1 .95.68l.54 1.64a1 1 0 0 0 .95.68h7a1 1 0 0 1 1 1Z" />
+                            </svg><span class="ms-4">File Manager</span></div>
+                        <div class=" text-start px-3 py-xl-2 menuL-title"><span>CUSTOM</span></div>
+
+                        <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent7" aria-controls="navbarToggleExternalContent7"
+                            aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" viewBox="0 0 24 24">
+                                <path fill="#8391a2"
+                                    d="M16 20H8a3 3 0 0 1-3-3V7a1 1 0 0 0-2 0v10a5 5 0 0 0 5 5h8a1 1 0 0 0 0-2Zm5-11.06a1.31 1.31 0 0 0-.06-.27v-.09a1.07 1.07 0 0 0-.19-.28l-6-6a1.07 1.07 0 0 0-.28-.19h-.09L14.06 2H10a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8.94Zm-6-3.53L17.59 8H16a1 1 0 0 1-1-1ZM19 15a1 1 0 0 1-1 1h-8a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h3v3a3 3 0 0 0 3 3h3Z" />
+                            </svg><span class="ms-4">Pages</span><span class="float-end"><img
+                                    src="./img/round-chevron-right.svg" alt=""></span></button>
+                        <div class="collapse" id="navbarToggleExternalContent7">
+                            <div class="option-list">
+                                <div class="px-3 pb-2">Profile</div>
+                                <div class="px-3 py-2">Profile 2</div>
+                                <div class="px-3 py-2">Invoice</div>
+                                <div class="px-3 py-2">FAQ</div>
+                                <div class="px-3 py-2">Pricing</div>
+                                <div class="px-3 py-2">Maintenance</div>
+                                <button class=" text-start pe-4 py-2 w-100" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarToggleExternalContent8"
+                                    aria-controls="navbarToggleExternalContent8" aria-expanded="false"
+                                    aria-label="Toggle navigation"><span class="ms-2"> Authentication
+                                    </span><span class="float-end"><img src="./img/round-chevron-right.svg"
+                                            alt=""></span></button>
+                                <div class="collapse" id="navbarToggleExternalContent8">
+                                    <div class="option-list">
+                                        <div class="px-0 py-2">Login</div>
+                                        <div class="px-0 py-2">Login 2</div>
+                                        <div class="px-0 py-2">Register</div>
+                                        <div class="px-0 py-2">Register 2</div>
+                                        <div class="px-0 py-2">Logout</div>
+                                        <div class="px-0 py-2">Logout 2</div>
+                                        <div class="px-0 py-2">Recover Password</div>
+                                        <div class="px-0 py-2">Recover Password 2</div>
+                                        <div class="px-0 py-2">Lock Screen</div>
+                                        <div class="px-0 py-2">Lock Screen 2</div>
+                                        <div class="px-0 py-2">Confirm Mail</div>
+                                        <div class="px-0 py-2">Confirm Mail 2</div>
+                                    </div>
+                                </div>
+                                <button class=" text-start pe-4 py-2 w-100 ms-0" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarToggleExternalContent9"
+                                    aria-controls="navbarToggleExternalContent9" aria-expanded="false"
+                                    aria-label="Toggle navigation"><span class="ms-2">Error
+                                    </span><span class="float-end"><img src="./img/round-chevron-right.svg"
+                                            alt=""></span></button>
+                                <div class="collapse" id="navbarToggleExternalContent9">
+                                    <div class="option-list">
+                                        <div class="px-0 py-2">Error 404</div>
+                                        <div class="px-0 py-2">Error 404-alt</div>
+                                        <div class="px-0 py-2">Error 500</div>
+                                    </div>
+                                </div>
+                                <div class="px-3 py-2">Starter Page</div>
+                                <div class="px-3 py-2">With Preloader</div>
+                                <div class="px-3 pt-2">Timeline</div>
+                            </div>
+                        </div>
+
+
+                        <div class=" text-start px-4 py-3"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" viewBox="0 0 24 24">
+                                <path fill="#8391a2"
+                                    d="M21.41 8.64v-.05a10 10 0 0 0-18.78 0s0 0 0 .05a9.86 9.86 0 0 0 0 6.72v.05a10 10 0 0 0 18.78 0s0 0 0-.05a9.86 9.86 0 0 0 0-6.72ZM4.26 14a7.82 7.82 0 0 1 0-4h1.86a16.73 16.73 0 0 0 0 4Zm.82 2h1.4a12.15 12.15 0 0 0 1 2.57A8 8 0 0 1 5.08 16Zm1.4-8h-1.4a8 8 0 0 1 2.37-2.57A12.15 12.15 0 0 0 6.48 8ZM11 19.7A6.34 6.34 0 0 1 8.57 16H11Zm0-5.7H8.14a14.36 14.36 0 0 1 0-4H11Zm0-6H8.57A6.34 6.34 0 0 1 11 4.3Zm7.92 0h-1.4a12.15 12.15 0 0 0-1-2.57A8 8 0 0 1 18.92 8ZM13 4.3A6.34 6.34 0 0 1 15.43 8H13Zm0 15.4V16h2.43A6.34 6.34 0 0 1 13 19.7Zm2.86-5.7H13v-4h2.86a14.36 14.36 0 0 1 0 4Zm.69 4.57a12.15 12.15 0 0 0 1-2.57h1.4a8 8 0 0 1-2.4 2.57ZM19.74 14h-1.86a16.16 16.16 0 0 0 .12-2a16.28 16.28 0 0 0-.12-2h1.86a7.82 7.82 0 0 1 0 4Z" />
+                            </svg><span class="ms-4">Loading</span><span class="badge bg-secondary float-end">New</span>
+                        </div>
+
+                        <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent10"
+                            aria-controls="navbarToggleExternalContent10" aria-expanded="false"
+                            aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" viewBox="0 0 24 24">
+                                <path fill="#8391a2"
+                                    d="M10 5a1 1 0 1 0 1 1a1 1 0 0 0-1-1ZM6 5a1 1 0 1 0 1 1a1 1 0 0 0-1-1Zm8 0a1 1 0 1 0 1 1a1 1 0 0 0-1-1Zm6-4H4a3 3 0 0 0-3 3v16a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3Zm1 19a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-9h18Zm0-11H3V4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1Z" />
+                            </svg><span class="ms-4">Layouts</span><span class="float-end"><img
+                                    src="./img/round-chevron-right.svg" alt=""></span></button>
+                        <div class="collapse" id="navbarToggleExternalContent10">
+                            <div class="option-list">
+                                <div class="px-3 pb-2">Horizontal</div>
+                                <div class="px-3 py-2">Detached</div>
+                                <div class="px-3 py-2">Full View</div>
+                                <div class="px-3 py-2">Fullscreen View</div>
+                                <div class="px-3 py-2">Hover Menu</div>
+                                <div class="px-3 py-2">Compact</div>
+                                <div class="px-3 pt-2">Icon View</div>
+                            </div>
+                        </div>
+
+                        <div class=" text-start px-3 py-xl-2 menuL-title"><span>COMPONENTS</span></div>
+
+                        <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent11"
+                            aria-controls="navbarToggleExternalContent11" aria-expanded="false"
+                            aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" viewBox="0 0 24 24">
+                                <path fill="#8391a2"
+                                    d="M20.49 7.52a.19.19 0 0 1 0-.08a.17.17 0 0 1 0-.07v-.09l-.06-.15a.48.48 0 0 0-.09-.11l-.09-.08h-.05l-3.94-2.49l-3.72-2.3a.85.85 0 0 0-.29-.15h-.08a.82.82 0 0 0-.27 0h-.1a1.13 1.13 0 0 0-.33.13L4 6.78l-.09.07l-.09.08l-.1.07l-.05.06l-.06.15v.15a.69.69 0 0 0 0 .2v8.73a1 1 0 0 0 .47.85l7.5 4.64l.15.06h.08a.86.86 0 0 0 .52 0h.08l.15-.06L20 17.21a1 1 0 0 0 .47-.85V7.63s.02-.07.02-.11ZM12 4.17l1.78 1.1l-5.59 3.46l-1.79-1.1Zm-1 15l-5.5-3.36V9.42l5.5 3.4Zm1-8.11l-1.91-1.15l5.59-3.47l1.92 1.19Zm6.5 4.72L13 19.2v-6.38l5.5-3.4Z" />
+                            </svg><span class="ms-4">Base UI</span><span class="float-end"><img
+                                    src="./img/round-chevron-right.svg" alt=""></span></button>
+                        <div class="collapse" id="navbarToggleExternalContent11">
+                            <div class="option-list">
+                                <div class="px-3 pb-2">Accordions & Collapse</div>
+                                <div class="px-3 py-2">Alerts</div>
+                                <div class="px-3 py-2">Avatars</div>
+                                <div class="px-3 py-2">Badges</div>
+                                <div class="px-3 py-2">Breadcrumb</div>
+                                <div class="px-3 py-2">Buttons</div>
+                                <div class="px-3 py-2">Horizontal</div>
+                                <div class="px-3 py-2">Cards</div>
+                                <div class="px-3 py-2">Carousel</div>
+                                <div class="px-3 py-2">Dropdowns</div>
+                                <div class="px-3 py-2">Embed Video</div>
+                                <div class="px-3 py-2">Grid</div>
+                                <div class="px-3 py-2">List Group</div>
+                                <div class="px-3 py-2">Modals</div>
+                                <div class="px-3 py-2">Notifications</div>
+                                <div class="px-3 py-2">Offcanvas</div>
+                                <div class="px-3 py-2">Placeholders</div>
+                                <div class="px-3 py-2">Pagination</div>
+                                <div class="px-3 py-2">Popovers</div>
+                                <div class="px-3 py-2">Progress</div>
+                                <div class="px-3 py-2">Ribbons</div>
+                                <div class="px-3 py-2">Spinners</div>
+                                <div class="px-3 py-2">Tabs</div>
+                                <div class="px-3 py-2">Tooltips</div>
+                                <div class="px-3 py-2">Links</div>
+                                <div class="px-3 py-2">Typography</div>
+                                <div class="px-3 pt-2">Utilities</div>
+                            </div>
+                        </div>
+
+
+                        <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent12"
+                            aria-controls="navbarToggleExternalContent12" aria-expanded="false"
+                            aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" viewBox="0 0 24 24">
+                                <path fill="#8391a2"
+                                    d="M19 2H5a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3Zm-9 2h4v3.13l-1.45-1a1 1 0 0 0-1.1 0l-1.45 1Zm10 15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h3v5a1 1 0 0 0 .53.88a1 1 0 0 0 1-.05L12 8.2l2.45 1.63A1 1 0 0 0 16 9V4h3a1 1 0 0 1 1 1Z" />
+                            </svg><span class="ms-4">Extended UI</span><span class="float-end"><img
+                                    src="./img/round-chevron-right.svg" alt=""></span></button>
+                        <div class="collapse" id="navbarToggleExternalContent12">
+                            <div class="option-list">
+                                <div class="px-3 pb-2">Dragula</div>
+                                <div class="px-3 py-2">Range Slider</div>
+                                <div class="px-3 py-2">Ratings</div>
+                                <div class="px-3 py-2">Scrollbar</div>
+                                <div class="px-3 py-2">Scrollspy</div>
+                                <div class="px-3 pt-2">Treeview</div>
+                            </div>
+                        </div>
+
+                        <div class=" text-start px-4 py-3"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" viewBox="0 0 24 24">
+                                <path fill="#8391a2"
+                                    d="m2.5 8.86l9 5.2a1 1 0 0 0 1 0l9-5.2A1 1 0 0 0 22 8a1 1 0 0 0-.5-.87l-9-5.19a1 1 0 0 0-1 0l-9 5.19A1 1 0 0 0 2 8a1 1 0 0 0 .5.86ZM12 4l7 4l-7 4l-7-4Zm8.5 7.17L12 16l-8.5-4.87a1 1 0 0 0-1.37.37a1 1 0 0 0 .37 1.36l9 5.2a1 1 0 0 0 1 0l9-5.2a1 1 0 0 0 .37-1.36a1 1 0 0 0-1.37-.37Zm0 4L12 20l-8.5-4.87a1 1 0 0 0-1.37.37a1 1 0 0 0 .37 1.36l9 5.2a1 1 0 0 0 1 0l9-5.2a1 1 0 0 0 .37-1.36a1 1 0 0 0-1.37-.37Z" />
+                            </svg><span class="ms-4">Widgets</span></div>
+
+                        <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent13"
+                            aria-controls="navbarToggleExternalContent13" aria-expanded="false"
+                            aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" viewBox="0 0 24 24">
+                                <path fill="#8391a2"
+                                    d="M12 12a1 1 0 1 0 1 1a1 1 0 0 0-1-1Zm9.71-2.36a10 10 0 0 0-19.4 0a9.75 9.75 0 0 0 0 4.72a10 10 0 0 0 7.3 7.34a9.67 9.67 0 0 0 4.7 0a10 10 0 0 0 7.31-7.31a9.75 9.75 0 0 0 0-4.72ZM12 4a8 8 0 0 1 7.41 5H4.59A8 8 0 0 1 12 4Zm-8 8a8.26 8.26 0 0 1 .07-1H6v2H4.07A8.26 8.26 0 0 1 4 12Zm5 7.41A8 8 0 0 1 4.59 15H7a2 2 0 0 1 2 2Zm4 .52a8.26 8.26 0 0 1-1 .07a8.26 8.26 0 0 1-1-.07V18h2Zm.14-3.93h-2.28A4 4 0 0 0 8 13.14V11h8v2.14A4 4 0 0 0 13.14 16ZM15 19.41V17a2 2 0 0 1 2-2h2.41A8 8 0 0 1 15 19.41ZM19.93 13H18v-2h1.93a8.26 8.26 0 0 1 .07 1a8.26 8.26 0 0 1-.07 1Z" />
+                            </svg><span class="ms-4">Icons</span><span class="float-end"><img
+                                    src="./img/round-chevron-right.svg" alt=""></span></button>
+                        <div class="collapse" id="navbarToggleExternalContent13">
+                            <div class="option-list">
+                                <div class="px-3 pb-2">Remix Icons</div>
+                                <div class="px-3 py-2">Material Design</div>
+                                <div class="px-3 pt-2">Unicons</div>
+                            </div>
+                        </div>
+
+
+                        <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent14"
+                            aria-controls="navbarToggleExternalContent14" aria-expanded="false"
+                            aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" viewBox="0 0 24 24">
+                                <path fill="#8391a2"
+                                    d="M12 6a1 1 0 0 0-1 1v10a1 1 0 0 0 2 0V7a1 1 0 0 0-1-1Zm-5 6a1 1 0 0 0-1 1v4a1 1 0 0 0 2 0v-4a1 1 0 0 0-1-1Zm10-2a1 1 0 0 0-1 1v6a1 1 0 0 0 2 0v-6a1 1 0 0 0-1-1Zm2-8H5a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3Zm1 17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1Z" />
+                            </svg><span class="ms-4">Charts</span><span class="float-end"><img
+                                    src="./img/round-chevron-right.svg" alt=""></span></button>
+                        <div class="collapse" id="navbarToggleExternalContent14">
+                            <div class="option-list">
+                                <button class=" text-start pe-4 ps-2 pb-2 w-100" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarToggleExternalContent15"
+                                    aria-controls="navbarToggleExternalContent15" aria-expanded="false"
+                                    aria-label="Toggle navigation"><span class="ms-2"> Apex Charts
+                                    </span><span class="float-end"><img src="./img/round-chevron-right.svg"
+                                            alt=""></span></button>
+                                <div class="collapse" id="navbarToggleExternalContent15">
+                                    <div class="option-list">
+                                        <div class="px-0 pb-2">Area</div>
+                                        <div class="px-0 py-2">Bar</div>
+                                        <div class="px-0 py-2">Bubble</div>
+                                        <div class="px-0 py-2">Candlestick</div>
+                                        <div class="px-0 py-2">Column</div>
+                                        <div class="px-0 py-2">Heatmap</div>
+                                        <div class="px-0 py-2">Line</div>
+                                        <div class="px-0 py-2">Mixed</div>
+                                        <div class="px-0 py-2">Timeline</div>
+                                        <div class="px-0 py-2">Boxplot</div>
+                                        <div class="px-0 py-2">Pie</div>
+                                        <div class="px-0 py-2">Radar</div>
+                                        <div class="px-0 py-2">RadialBar</div>
+                                        <div class="px-0 py-2">Scatter</div>
+                                        <div class="px-0 py-2">Polar Area</div>
+                                        <div class="px-0 pt-2">Sparklines</div>
+                                    </div>
+                                </div>
+                                <button class=" text-start pe-4 ps-2 py-2 w-100" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarToggleExternalContent16"
+                                    aria-controls="navbarToggleExternalContent16" aria-expanded="false"
+                                    aria-label="Toggle navigation"><span class="ms-2"> ChartJS
+                                    </span><span class="float-end"><img src="./img/round-chevron-right.svg"
+                                            alt=""></span></button>
+                                <div class="collapse" id="navbarToggleExternalContent16">
+                                    <div class="option-list">
+                                        <div class="px-0 pb-2">Area</div>
+                                        <div class="px-0 py-2">Bar</div>
+                                        <div class="px-0 py-2">Line</div>
+                                        <div class="px-0 pt-2">Other</div>
+                                    </div>
+                                </div>
+                                <div class="px-3 py-2">Britecharts</div>
+                                <div class="px-3 pt-2">Sparklines</div>
+                            </div>
+                        </div>
+
+                        <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent17"
+                            aria-controls="navbarToggleExternalContent17" aria-expanded="false"
+                            aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" viewBox="0 0 24 24">
+                                <path fill="#8391a2"
+                                    d="M9 12h6a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1Zm1-6h4v4h-4Zm11 4h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2Zm-2-2h2a1 1 0 0 0 0-2h-2a1 1 0 0 0 0 2ZM3 8h2a1 1 0 0 0 0-2H3a1 1 0 0 0 0 2Zm0 4h2a1 1 0 0 0 0-2H3a1 1 0 0 0 0 2Zm18 2H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Zm-8 4H3a1 1 0 0 0 0 2h10a1 1 0 0 0 0-2Z" />
+                            </svg><span class="ms-4">Forms</span><span class="float-end"><img
+                                    src="./img/round-chevron-right.svg" alt=""></span></button>
+                        <div class="collapse" id="navbarToggleExternalContent17">
+                            <div class="option-list">
+                                <div class="px-3 pb-2">Basic Elements</div>
+                                <div class="px-3 py-2">Form Advanced</div>
+                                <div class="px-3 py-2">Validation</div>
+                                <div class="px-3 py-2">Wizard</div>
+                                <div class="px-3 py-2">File Uploads</div>
+                                <div class="px-3 pt-2">Editors</div>
+                            </div>
+                        </div>
+
+                        <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent18"
+                            aria-controls="navbarToggleExternalContent18" aria-expanded="false"
+                            aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" viewBox="0 0 24 24">
+                                <path fill="#8391a2"
+                                    d="M21 2H3a1 1 0 0 0-1 1v18a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1ZM8 20H4v-4h4Zm0-6H4v-4h4Zm0-6H4V4h4Zm6 12h-4v-4h4Zm0-6h-4v-4h4Zm0-6h-4V4h4Zm6 12h-4v-4h4Zm0-6h-4v-4h4Zm0-6h-4V4h4Z" />
+                            </svg><span class="ms-4">Tables</span><span class="float-end"><img
+                                    src="./img/round-chevron-right.svg" alt=""></span></button>
+                        <div class="collapse" id="navbarToggleExternalContent18">
+                            <div class="option-list">
+                                <div class="px-3 pb-2">Basic Tables</div>
+                                <div class="px-3 pt-2">Data Tables</div>
+                            </div>
+                        </div>
+
+                        <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent19"
+                            aria-controls="navbarToggleExternalContent19" aria-expanded="false"
+                            aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" viewBox="0 0 24 24">
+                                <path fill="#8391a2"
+                                    d="M18 4.48a8.45 8.45 0 0 0-12 12l5.27 5.28a1 1 0 0 0 1.42 0L18 16.43a8.45 8.45 0 0 0 0-11.95ZM16.57 15L12 19.59L7.43 15a6.46 6.46 0 1 1 9.14 0ZM9 7.41a4.32 4.32 0 0 0 0 6.1a4.31 4.31 0 0 0 7.36-3a4.24 4.24 0 0 0-1.26-3.05A4.3 4.3 0 0 0 9 7.41Zm4.69 4.68a2.33 2.33 0 1 1 .67-1.63a2.33 2.33 0 0 1-.72 1.63Z" />
+                            </svg><span class="ms-4">Maps</span><span class="float-end"><img
+                                    src="./img/round-chevron-right.svg" alt=""></span></button>
+                        <div class="collapse" id="navbarToggleExternalContent19">
+                            <div class="option-list">
+                                <div class="px-3 pb-2">Google Maps</div>
+                                <div class="px-3 pt-2">Vector Maps</div>
+                            </div>
+                        </div>
+
+                        <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent20"
+                            aria-controls="navbarToggleExternalContent20" aria-expanded="false"
+                            aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" viewBox="0 0 24 24">
+                                <path fill="#8391a2"
+                                    d="M14 12.5h-1v-1a1 1 0 0 0-2 0v1h-1a1 1 0 0 0 0 2h1v1a1 1 0 0 0 2 0v-1h1a1 1 0 0 0 0-2Zm5-7h-6.28l-.32-1a3 3 0 0 0-2.84-2H5a3 3 0 0 0-3 3v13a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-10a3 3 0 0 0-3-3Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-13a1 1 0 0 1 1-1h4.56a1 1 0 0 1 .95.68l.54 1.64a1 1 0 0 0 .95.68h7a1 1 0 0 1 1 1Z" />
+                            </svg><span class="ms-4">Multi Level</span><span class="float-end"><img
+                                    src="./img/round-chevron-right.svg" alt=""></span></button>
+                        <div class="collapse" id="navbarToggleExternalContent20">
+                            <div class="option-list">
+                                <button class=" text-start pe-4 ps-2 pb-2 w-100" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarToggleExternalContent21"
+                                    aria-controls="navbarToggleExternalContent21" aria-expanded="false"
+                                    aria-label="Toggle navigation"><span class="ms-2"> Second Level
+                                    </span><span class="float-end"><img src="./img/round-chevron-right.svg"
+                                            alt=""></span></button>
+                                <div class="collapse" id="navbarToggleExternalContent21">
+                                    <div class="option-list">
+                                        <div class="px-0 pb-2">Item 1</div>
+                                        <div class="px-0 pt-2">Item 2</div>
+                                    </div>
+                                </div>
+                                <button class=" text-start pe-4 ps-2 pt-2 w-100" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarToggleExternalContent22"
+                                    aria-controls="navbarToggleExternalContent22" aria-expanded="false"
+                                    aria-label="Toggle navigation"><span class="ms-2"> Third Level
+                                    </span><span class="float-end"><img src="./img/round-chevron-right.svg"
+                                            alt=""></span></button>
+                                <div class="collapse" id="navbarToggleExternalContent22">
+                                    <div class="option-list">
+                                        <div class="px-0 py-2">Item 1</div>
+                                        <button class=" text-start pe-4 ps-0 pt-0 w-100" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent23"
+                                            aria-controls="navbarToggleExternalContent23" aria-expanded="false"
+                                            aria-label="Toggle navigation"><span class="ms-0">Item 2
+                                            </span><span class="float-end"><img src="./img/round-chevron-right.svg"
+                                                    alt=""></span></button>
+                                        <div class="collapse" id="navbarToggleExternalContent23">
+                                            <div class="option-list ps-4">
+                                                <div class="pe-2 pt-2">Item 2.1</div>
+                                                <div class="pe-2 pb-2">Item 2.2</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="help-box text-white text-center" id="help-box-2">
+                            <a href="#" class="float-end close-btn text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
+                                    <path fill="white"
+                                        d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z" />
+                                </svg>
+                            </a>
+                            <img src="./img/help-icon.svg" height="90" alt="">
+                            <h5 class="mt-3">Unlimited Access</h5>
+                            <p class="mb-3">Upgrade to plan to get access to unlimited reports</p>
+                            <a href="#" class="btn btn-secondary btn-sm">Upgrade</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="content-page pt-4">
+            <div class="container-fluid px-4">
+                <div class="row">
+                    <div class="col-12 ">
+                        <div class="page-title-box d-flex flex-row-reverse justify-content-between">
+                            <div class="page-title-right ">
+                                <div style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                                    <ol class="breadcrumb ">
+                                        <li class="breadcrumb-item"><a href="#">Hyper</a></li>
+                                        <li class="breadcrumb-item"><a href="#">eCommerce</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Order Details
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <h4 class="page-title mb-0">Order Details</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 w-100 p-0" id="progress">
+                        <div class="line">
+                            <div class="point-1">
+                            </div>
+                            <div class="point-2">
+                            </div>
+                            <div class="point-3">
+                            </div>
+                            <div class="point-4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="card w-100 mb-4" style="width: 18rem;">
+                            <div class="card-body">
+                                <h4 class="header-title mb-3">ITEMS FROM ORDER #12537</h4>
+
+                                <div class="table-responsive">
+                                    <table class="table mb-2">
+                                        <thead class="table-light">
+                                            <tr>
+                                                <th>Item</th>
+                                                <th>Quantity</th>
+                                                <th>Price</th>
+                                                <th>Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>The Military Duffle Bag</td>
+                                                <td>3</td>
+                                                <td>$128</td>
+                                                <td>$384</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mountain Basket Ball</td>
+                                                <td>1</td>
+                                                <td>$199</td>
+                                                <td>$199</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Wavex Canvas Messenger Bag</td>
+                                                <td>5</td>
+                                                <td>$180</td>
+                                                <td>$900</td>
+                                            </tr>
+                                            <tr>
+                                                <td>The Utility Shirt</td>
+                                                <td>2</td>
+                                                <td>$79</td>
+                                                <td>$158</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card w-100 mb-4" style="width: 18rem;">
+                            <div class="card-body">
+                                <h4 class="header-title mb-3">ORDER SUMMARY</h4>
+
+                                <div class="table-responsive">
+                                    <table class="table mb-2">
+                                        <thead class="table-light">
+                                            <tr>
+                                                <th>Description</th>
+                                                <th>Price</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Grand Total :</td>
+                                                <td>$1641</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Shipping Charge :</td>
+                                                <td>$23</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Estimated Tax : </td>
+                                                <td>$19.22</td>
+                                            </tr>
+                                            <tr id="total">
+                                                <th>Total :</th>
+                                                <th>$1683.22</th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="card-group2">
+                    <div class="col-lg-4 ">
+                        <div class="card w-100 mb-4" style="width: 18rem;">
+                            <div class="card-body">
+                                <h4 class="header-title mb-4">SHIPPING INFORMATION</h4>
+                                <h5>Stanley Jones</h5>
+                                <address class="mb-0 font-14 address-lg">
+                                    795 Folsom Ave, Suite 600<br>
+                                    San Francisco, CA 94107<br>
+                                    <abbr title="Phone">P:</abbr> (123) 456-7890 <br>
+                                    <abbr title="Mobile">M:</abbr> (+01) 12345 67890
+                                </address>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card w-100 mb-4" style="width: 18rem;">
+                            <div class="card-body">
+                                <h4 class="header-title mb-4">BILLING INFORMATION</h4>
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <p class="mb-2"><span class="fw-bold me-2">Payment Type:</span> Credit Card
+                                        </p>
+                                        <p class="mb-2"><span class="fw-bold me-2">Provider:</span> Visa ending in
+                                            2851</p>
+                                        <p class="mb-2"><span class="fw-bold me-2">Valid Date:</span> 02/2020</p>
+                                        <p class="mb-2"><span class="fw-bold me-2">CVV:</span> xxx</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card w-100 mb-4">
+                            <div class="card-body">
+                                <h4 class="header-title mb-3">DELIVERY INFO</h4>
+                                <div class="text-center">
+                                    <div class="mb-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 640 512">
+                                            <path fill="#8391a2"
+                                                d="M112 0C85.5 0 64 21.5 64 48v48H16c-8.8 0-16 7.2-16 16s7.2 16 16 16h256c8.8 0 16 7.2 16 16s-7.2 16-16 16H48c-8.8 0-16 7.2-16 16s7.2 16 16 16h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H16c-8.8 0-16 7.2-16 16s7.2 16 16 16h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H64v128c0 53 43 96 96 96s96-43 96-96h128c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H112zm432 237.3V256H416v-96h50.7l77.3 77.3zM160 368a48 48 0 1 1 0 96a48 48 0 1 1 0-96zm272 48a48 48 0 1 1 96 0a48 48 0 1 1-96 0z" />
+                                        </svg></div>
+                                    <h5 class="mb-2"><b>UPS Delivery</b></h5>
+                                    <p class="mb-2"><b>Order ID :</b> xxxx235</p>
+                                    <p class="mb-2"><b>Payment Mode :</b> COD</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer fw-light">
+                <div class=" p-3 d-flex justify-content-md-between justify-content-sm-center">
+                    <div class=" d-flex justify-content-start align-items-center">
+                        2023 © Hyper - Coderthemes.com
+                    </div>
+                    <div class="d-none d-md-flex">
+                        <div class="text-md-end d-flex d-flex flex-row justify-content-end align-items-center">
+                            <div class="f-text me-4 text-start">About</div>
+                            <div class="f-text me-4 text-center">Support</div>
+                            <div class="f-text me-4 text-end">Contact Us</div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src=""></script>
+</body>
+</html>
