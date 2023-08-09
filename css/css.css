@@ -46,6 +46,16 @@ button {
     color: #6c757d;
 }
 
+.logo-pic {
+    background-image: url('../img/avatar-1.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
 .page-title.mb-0 {
     font-size: 18px;
     font-weight: 700;
@@ -109,37 +119,8 @@ button {
     width: 279px !important;
 }
 
-.point-2 {
-    width: 20px;
-    height: 20px;
-    background-color: #727cf5;
-    border-radius: 50%;
-    border: 5px solid #fafbfe;
-    position: absolute;
-    top: -10px;
-    left: 31.5%;
-}
-
-.point-3 {
-    width: 20px;
-    height: 20px;
-    background-color: #727cf5;
-    border-radius: 50%;
-    border: 5px solid #fafbfe;
-    position: absolute;
-    top: -10px;
-    right: 31.5%;
-}
-
-.point-4 {
-    width: 20px;
-    height: 20px;
-    background-color: #0acf97;
-    border-radius: 50%;
-    border: 5px solid #fafbfe;
-    position: absolute;
-    top: -10px;
-    right: 0px;
+.o-card {
+    border-radius: 0!important;
 }
 
 .card {
@@ -159,23 +140,39 @@ button {
     letter-spacing: .02rem;
 }
 
-.table> :not(caption)>*>* {
-    padding: 0.85rem 0.95rem;
-}
-
-.table {
-    color: #6c757d;
-}
-
-.table th {
-    background-color: #eef2f7;
-    border: none;
-    font-family: Arial, Helvetica, sans-serif;
+.order-list th {
+    line-height: 40px;
     font-weight: 400;
 }
 
-.table tbody th {
-    background-color: #ffffff;
+.form-check {
+    padding-left: 40px!important;
+}
+
+.table {
+    --bs-table-hover-bg: #F0F3F2!important;
+}
+
+.th1 th{
+    line-height: 25px;
+    background-color: #F0F3F2;
+}
+
+#page-item a{
+    border-radius: 8px!important;
+}
+
+.th1 {
+    background-color: #F0F3F2;
+}
+
+.table> :not(caption)>*>* {
+    padding: 0.75rem 1.5rem;
+    background-color: transparent!important;
+}
+
+.card-body {
+    overflow-x: scroll;
 }
 
 #logo-text p {
