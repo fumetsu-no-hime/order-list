@@ -14,10 +14,13 @@
 
 ::-webkit-scrollbar-thumb {
     border-radius: 5px;
-    background-color: gray;
+    background-color: rgb(190, 190, 190);
 }
 
-
+.navbar.navbar-light.p-0.sticky-top.d-flex.align-items-center {
+    background-color: hsla(0, 0%, 100%, .8);
+    box-shadow: none;
+}
 
 * {
     box-sizing: border-box;
@@ -26,7 +29,7 @@
 body {
     margin: 0;
     height: 100vh;
-    background-color: #fafbfe;
+    background-color: #ffffff;
     height: 100vh !important;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
@@ -34,7 +37,7 @@ body {
 
 button {
     color: inherit;
-    background-color: #313a46;
+    background-color: #ffffff;
     border-style: none;
 }
 
@@ -50,16 +53,21 @@ button {
 }
 
 .search-icon::before {
-    content: url(./img/search.svg);
+    content: url('./img/search.svg');
     position: absolute;
     bottom: 2px;
     left: 14px;
 }
 
 #search-area {
-    background-color: rgb(240, 243, 248);
-    border: none;
-    width: 13vw;
+    background-color: rgb(255, 255, 255);
+    /* border: none; */
+    width: 233px;
+    height: 42px;
+    border-radius: 8px !important;
+    font-weight: 600;
+    color: #889397 !important;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #card-group2 {
@@ -67,53 +75,23 @@ button {
 }
 
 .content-page {
-    background-color: #fafbfe;
+    background-color: #ffffff;
     height: calc(100vh - 70px);
     overflow-y: scroll;
 }
 
-.help-box {
-    background-color: rgba(255, 255, 255, 0.07);
-    margin: 30px 25px 25px 25px;
-    padding: 20px;
-}
-
-.top-title {
-    width: 80%;
-    height: 70px;
-    background-color: #313a46;
-}
-
-.top-title img {
-    margin-top: 26px;
-}
-
-#logo-box {
-    height: 70px;
-    padding: 0 0.75rem;
-}
-
-#logo {
-    width: 30px;
-    height: 30px;
-    background-image: url(./img/logo.jpg);
-    border-radius: 50%;
-    background-position: center;
-    background-size: cover;
-}
-
 #menuL-logo {
-    width: 103.7px;
-    height: 22px;
-    background-image: url(./img/menu-title.png);
+    width: 160px;
+    height: 31px;
+    background-image: url('../img/freshcart-logo.svg');
     background-position: center;
     background-size: cover;
 }
 
 #menuL-logo-2 {
-    width: 103.7px;
-    height: 22px;
-    background-image: url(./img/menu-title.png);
+    width: 160px;
+    height: 31px;
+    background-image: url('../img/freshcart-logo.svg');
     background-position: center;
     background-size: cover;
 }
@@ -127,62 +105,8 @@ button {
     font-weight: 700;
 }
 
-.en {
-    font-size: 0.9375rem;
-}
-
-.line {
-    width: 60%;
-    height: 2px;
-    background-color: rgb(170, 170, 170);
-    position: relative;
-}
-
-.point-1 {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: 5px solid #fafbfe;
-    position: absolute;
-    top: -10px;
-    /* left: -10px; */
-    background-color: #727cf5;
-}
-
-.point-1::after {
-    width: 150px;
-    content: 'Order Placed';
-    position: absolute;
-    top: 20px;
-    left: -100px;
-    text-align: end;
-}
-
-.point-2::after {
-    content: 'Packed';
-    position: absolute;
-    top: 20px;
-    left: -20px;
-
-}
-
-.point-3::after {
-    content: 'Shipped';
-    position: absolute;
-    top: 20px;
-    left: -20px;
-
-}
-
-.point-4::after {
-    content: 'Delivered';
-    position: absolute;
-    top: 20px;
-    left: -30px;
-}
-
 .offcanvas.offcanvas-start.w-25 {
-    width: 260px !important;
+    width: 279px !important;
 }
 
 .point-2 {
@@ -292,20 +216,21 @@ nav {
 
 .side-nav {
     list-style: none;
-    color: #92a2b4;
+    color: #5c6c75;
     font-size: 0.9375rem;
-    background-color: #313a46;
+    background-color: #ffffff;
     height: 94vh;
     overflow-y: scroll;
 }
 
 .side-nav-2 {
     list-style: none;
-    color: #92a2b4;
+    color: #5c6c75;
     font-size: 0.9375rem;
-    background-color: #313a46;
+    background-color: #ffffff;
     height: 94vh;
     overflow-y: scroll;
+    width: 279px;
 }
 
 
@@ -328,8 +253,9 @@ footer {
     color: #90979e;
 }
 
-.text-start.px-4.py-3:hover {
-    color: rgb(223, 223, 223);
+button:hover {
+    background-color: #f0f3f2;
+    color: #21313c;
 }
 
 .text-start.px-4.py-3 img:nth-child(2) {
@@ -349,18 +275,27 @@ footer {
 }
 
 #menuL {
-    width: 260px;
+    width: 279px;
     height: 100vh;
-    background-color: #313a46;
+    background-color: #ffffff;
     transition: 500ms;
+
 }
 
 #mainPage {
-    width: calc(100% - 260px);
+    width: calc(100% - 279px);
     height: 100vh;
-    margin-left: 260px;
+    margin-left: 279px;
     transition: 500ms;
 }
+
+@media (max-width:1200px) {
+    #mainPage {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
 
 @media (max-width:1140px) {
     body {
@@ -371,15 +306,6 @@ footer {
     .content-page {
         overflow: hidden;
         height: 2000px;
-    }
-
-    #menuL {
-        width: 70px;
-    }
-
-    #mainPage {
-        width: calc(100% - 70px);
-        margin-left: 70px;
     }
 
     #menuL-logo {
@@ -440,14 +366,6 @@ footer {
 }
 
 @media (max-width:768px) {
-    #menuL {
-        display: none;
-    }
-
-    #mainPage {
-        width: 100%;
-        margin: 0;
-    }
 
     .breadcrumb {
         display: none;
@@ -459,10 +377,10 @@ footer {
     }
 }
 
-@media (max-width:576px){
-    
+@media (max-width:576px) {
+
     .p-3.d-flex.justify-content-md-between.justify-content-sm-center {
-        justify-content: center!important;
+        justify-content: center !important;
     }
 }
 
