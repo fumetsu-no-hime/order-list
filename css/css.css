@@ -41,6 +41,11 @@ button {
     border-style: none;
 }
 
+#dropdownMenuLink {
+    width: 200px;
+    background-color: #ffffff;
+}
+
 .navL {
     width: 29%;
     color: #6c757d;
@@ -53,7 +58,6 @@ button {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    margin-left: 20px;
 }
 
 .page-title.mb-0 {
@@ -86,7 +90,7 @@ button {
 
 .content-page {
     background-color: #ffffff;
-    height: calc(100vh - 70px);
+    height: 100vh;
     overflow-y: scroll;
 }
 
@@ -193,6 +197,7 @@ button {
 nav {
     height: 70px;
     box-shadow: 0px 0px 35px 0px rgba(154, 161, 171, 0.15);
+    backdrop-filter: blur(6px);
 
 }
 
@@ -276,7 +281,6 @@ button:hover {
     height: 100vh;
     background-color: #ffffff;
     transition: 500ms;
-
 }
 
 #mainPage {
@@ -284,6 +288,7 @@ button:hover {
     height: 100vh;
     margin-left: 279px;
     transition: 500ms;
+    overflow-y: scroll;
 }
 
 @media (max-width:1200px) {
