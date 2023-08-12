@@ -423,6 +423,9 @@ button:hover {
     .p-3.d-flex.justify-content-md-between.justify-content-sm-center {
         justify-content: center !important;
     }
+    .content-title {
+        margin: 0 0!important;
+    }
 }
 
 @media (max-width:376px) {

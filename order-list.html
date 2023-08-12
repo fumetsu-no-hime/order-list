@@ -136,12 +136,12 @@
     <div class="p-0 position-relative " id="mainPage">
         <nav class="navbar navbar-light p-0 sticky-top d-flex  align-items-center">
             <div class="container-fluid align-items-center">
-                <div class="navL d-flex">
-                    <button class="navbar-toggler d-xl-none p-0 border-0 ms-2 me-4 type=" button
+                <div class="navL d-flex w-50">
+                    <button class="navbar-toggler d-xl-none p-0 border-0" type="button"
                         data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <form class="d-flex position-relative ms-4">
+                    <form class="d-flex position-relative ms-2">
                         <!-- <span class="mdi mdi-magnify search-icon"></span> -->
                         <input class="form-control rounded-0 w-100" id="search-area" type="search" placeholder="Search"
                             aria-label="Search">
@@ -222,7 +222,8 @@
                             </div>
 
                             <div class="d-flex justify-content-center align-items-center p-3 border-top text-success">
-                                <a href="#">View All</a></div>
+                                <a href="#">View All</a>
+                            </div>
                         </ul>
                     </div>
                     <div class="dropdown ms-2"><button type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -383,14 +384,16 @@
                 </div>
                 <div class="order w-100 mb-5 px-5 ">
                     <div class="card p-0 border-0 o-card">
-                        <div class="card-header bg-white d-flex justify-content-between flex-column flex-md-row order-search py-4">
-                            <form class="d-flex position-relative ms-4 ">
-                                <input class="form-control rounded-0 py-0 w-50" id="search-area" type="search"
+                        <div
+                            class="card-header bg-white d-flex justify-content-between flex-column flex-md-row order-search py-4">
+                            <form class="d-flex position-relative ms-4">
+                                <input class="form-control rounded-0 py-0 w-100" id="search-area" type="search"
                                     placeholder="Search" aria-label="Search">
                             </form>
                             <div class="dropdown ms-4 pt-3 pt-md-0" id="Status-dropdown-menu">
-                                <a class="btn text-start border d-flex justify-content-between align-items-center" href="#" role="button" id="dropdownMenuLink"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="btn text-start border d-flex justify-content-between align-items-center"
+                                    href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
                                     <span>Status</span><img src="./img/下載.svg" width="14" height="14" alt="">
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
