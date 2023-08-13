@@ -9,6 +9,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
     <link rel="stylesheet" href="./css/css.css">
     <link rel="stylesheet" href="./css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 
@@ -20,125 +21,143 @@
         </div>
         <div class="side-nav w-100 px-3">
             <button class=" text-start px-3 py-3 w-100" type="button"><i class="bi bi-house"></i><span
-                    class="ms-4">Dashboards</span></button>
+                    class="ms-3">Dashboards</span></button>
 
 
-            <div class=" text-start px-3 py-xl-2 menuL-title"><span>Store Managements</span></div>
+            <div class=" text-start px-3 py-xl-3 menuL-title"><span>Store Managements</span></div>
             <button class=" text-start px-3 py-3 w-100" type="button"><i class="bi bi-cart"></i><span
-                    class="ms-4">Products</span></button>
+                    class="ms-3">Products</span></button>
             <button class=" text-start px-3 py-3 w-100" type="button"><i class="bi bi-list-task"></i><span
-                    class="ms-4">Categories</span></button>
+                    class="ms-3">Categories</span></button>
 
-            <button class=" text-start px-3 py-3 w-100" type="button" data-bs-toggle="collapse"
+            <button class=" text-start px-3 py-3 w-100 orders" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarToggleExternalContent5" aria-controls="navbarToggleExternalContent5"
                 aria-expanded="false" aria-label="Toggle navigation"><i class="bi bi-bag"></i><span
-                    class="ms-4">Orders</span><span class="float-end"><img src="./img/下載.svg" width="14" height="22.39"
-                        alt=""></span></button>
+                    class="ms-3">Orders</span><span class="float-end"><img class="chevron-down" src="./img/下載.svg"
+                        width="14" height="22.39" alt=""></span></button>
             <div class="collapse" id="navbarToggleExternalContent5">
                 <div class="option-list ps-0 position-relative">
-                    <button class=" text-start ps-5 py-3 w-100" type="button">Projects</button>
-                    <button class=" text-start ps-5 py-3 w-100">Orders List</button>
+                    <button class=" text-start ps-4 py-2 w-100 position-relative" type="button"><span class="ms-4">
+                            <div class="dot"></div>Projects
+                        </span></button>
+                    <button class=" text-start ps-4 py-2 w-100 position-relative"><span class="ms-4">
+                            <div class="dot"></div>Orders List
+                        </span></button>
                 </div>
             </div>
 
             <button class=" text-start px-3 py-3 w-100" type="button"><i class="bi bi-shop"></i><span
-                    class="ms-4">Sellers / Vendors</span></button>
+                    class="ms-3">Sellers / Vendors</span></button>
 
             <button class=" text-start px-3 py-3 w-100" type="button"><i class="bi bi-people"></i><span
-                    class="ms-4">Customers</span></button>
+                    class="ms-3">Customers</span></button>
 
             <button class=" text-start px-3 py-3 w-100" type="button"><i class="bi bi-star"></i><span
-                    class="ms-4">Reviews</span></button>
+                    class="ms-3">Reviews</span></button>
 
             <button class=" text-start px-3 py-3 w-100" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarToggleExternalContent20" aria-controls="navbarToggleExternalContent20"
-                aria-expanded="false" aria-label="Toggle navigation"><i class=" bi bi-arrow-90deg-down"></i><span
-                    class="ms-4">Menu Level</span><span class="float-end"><img src="./img/下載.svg" width="14"
-                        height="22.39" alt=""></span></button>
+                aria-expanded="false" aria-label="Toggle navigation" id="MenuLevel"><i
+                    class=" bi bi-arrow-90deg-down"></i><span class="ms-3">Menu Level</span><span class="float-end"><img
+                        class="chevron-down-1" src="./img/下載.svg" width="14" height="22.39" alt=""></span></button>
             <div class="collapse" id="navbarToggleExternalContent20">
                 <div class="option-list ps-0">
-                    <button class=" text-start pe-3 ps-5 py-2 w-100" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarToggleExternalContent21" aria-controls="navbarToggleExternalContent21"
-                        aria-expanded="false" aria-label="Toggle navigation"><span class="ms-2"> Two Level
-                        </span><span class="float-end"><img src="./img/下載.svg" width="14" height="22.39"
-                                alt=""></span></button>
+                    <button class=" text-start pe-3 ps-4 py-2 w-100 position-relative" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent21"
+                        aria-controls="navbarToggleExternalContent21" aria-expanded="false"
+                        aria-label="Toggle navigation" id="twoLevel"><span class="ms-4">
+                            <div class="dot"></div>Two Level
+                        </span><span class="float-end"><img class="chevron-down-2" src="./img/下載.svg" width="14"
+                                height="22.39" alt=""></span></button>
                     <div class="collapse" id="navbarToggleExternalContent21">
                         <div class="option-list ps-0">
-                            <button class=" text-start pe-3 ps-5 py-2 w-100"><span class="ms-2">NavItem
-                                    1</span></button>
-                            <button class=" text-start pe-3 ps-5 py-2 w-100"><span class="ms-2">NavItem
-                                    2</span></button>
+                            <button class=" text-start pe-3 ps-4 py-2 w-100 position-relative"><span class="ms-4">
+                                    <div class="dot"></div>NavItem
+                                    1
+                                </span></button>
+                            <button class=" text-start pe-3 ps-4 py-2 w-100 position-relative"><span class="ms-4">
+                                    <div class="dot"></div>NavItem
+                                    2
+                                </span></button>
                         </div>
                     </div>
-                    <button class=" text-start pe-3 ps-5 py-2 w-100" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarToggleExternalContent22" aria-controls="navbarToggleExternalContent22"
-                        aria-expanded="false" aria-label="Toggle navigation"><span class="ms-2"> Three Level
-                        </span><span class="float-end"><img src="./img/下載.svg" width="14" height="22.39"
-                                alt=""></span></button>
+                    <button class=" text-start pe-3 ps-4 py-2 w-100 position-relative" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent22"
+                        aria-controls="navbarToggleExternalContent22" aria-expanded="false"
+                        aria-label="Toggle navigation" id="threeLevel"><span class="ms-4">
+                            <div class="dot"></div>Three Level
+                        </span><span class="float-end"><img class="chevron-down-3" src="./img/下載.svg" width="14"
+                                height="22.39" alt=""></span></button>
                     <div class="collapse" id="navbarToggleExternalContent22">
                         <div class="option-list ps-0">
-                            <button class=" text-start ps-5 pe-3 py-2 w-100" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarToggleExternalContent23"
+                            <button class=" text-start ps-4 pe-3 py-2 w-100 position-relative" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent23"
                                 aria-controls="navbarToggleExternalContent23" aria-expanded="false"
-                                aria-label="Toggle navigation"><span class="ms-2">NavItem 1
-                                </span><span class="float-end"><img src="./img/下載.svg" width="14" height="22.39"
-                                        alt=""></span></button>
+                                aria-label="Toggle navigation" id="navItem"><span class="ms-4">
+                                    <div class="dot"></div>NavItem 1
+                                </span><span class="float-end"><img class="chevron-down-4" src="./img/下載.svg" width="14"
+                                        height="22.39" alt=""></span></button>
                             <div class="collapse" id="navbarToggleExternalContent23">
                                 <div class="option-list ps-4">
-                                    <button class=" text-start pe-3 ps-5 py-2 w-100">NavChild Item 1</button>
+                                    <button class=" text-start pe-3 ps-4 py-2 w-100 position-relative"><span
+                                            class="ms-3">
+                                            <div class="dot"></div>NavChild Item 1
+                                        </span></button>
                                     <!-- <div class="pe-3 py-2">NavItem 2</div> -->
                                 </div>
                             </div>
-                            <button class=" text-start px-5 py-2 w-100"><span class="ms-2">NavItem 2</span></button>
+                            <button class=" text-start px-4 py-2 w-100 position-relative"><span class="ms-4">
+                                    <div class="dot"></div>NavItem 2
+                                </span></button>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class=" text-start px-3 py-xl-2 menuL-title"><span>Site Settings</span><span
+            <div class=" text-start px-3 py-xl-3 menuL-title"><span>Site Settings</span><span
                     class="badge bg-primary-subtle text-primary-emphasis ms-4">Coming Soon</span></div>
 
             <div class=" text-start px-3 py-3 text-body-tertiary"><i class="bi bi-newspaper"></i><span
-                    class="ms-4">Blog</span></div>
+                    class="ms-3">Blog</span></div>
 
             <div class=" text-start px-3 py-3 text-body-tertiary"><i class="bi bi-images"></i><span
-                    class="ms-4">Media</span></div>
+                    class="ms-3">Media</span></div>
 
-            <div class=" text-start px-3 py-3 text-body-tertiary"><i class="bi bi-gear"></i><span class="ms-4">Store
+            <div class=" text-start px-3 py-3 text-body-tertiary"><i class="bi bi-gear"></i><span class="ms-3">Store
                     Settings</span></div>
 
-            <div class=" text-start px-3 py-xl-2 menuL-title"><span>Support</span><span
+            <div class=" text-start px-3 py-xl-3 menuL-title"><span>Support</span><span
                     class="badge bg-primary-subtle text-primary-emphasis ms-4">Coming Soon</span></div>
 
             <div class=" text-start px-3 py-3 text-body-tertiary"><i class="bi bi-headphones"></i><span
-                    class="ms-4">Support Ticket
+                    class="ms-3">Support Ticket
                 </span></div>
 
             <div class=" text-start px-3 py-3 text-body-tertiary"><i class="bi bi-question-circle"></i><span
-                    class="ms-4">Help Center
+                    class="ms-3">Help Center
                 </span></div>
 
-            <div class=" text-start px-3 py-3 text-body-tertiary"><i class="bi bi-infinity"></i><span class="ms-4">How
+            <div class=" text-start px-3 py-3 text-body-tertiary"><i class="bi bi-infinity"></i><span class="ms-3">How
                     FreshCart
                     Works</span></div>
 
-            <div class=" text-start px-3 py-xl-2 menuL-title"><span>Our Apps</span></div>
+            <div class=" text-start px-3 py-xl-3 menuL-title"><span>Our Apps</span></div>
 
 
-            <div class=" text-start px-3 py-3 text-body-tertiary"><i class="bi bi-apple"></i><span class="ms-4">Apple
+            <div class=" text-start px-3 py-3 text-body-tertiary"><i class="bi bi-apple"></i><span class="ms-3">Apple
                     Store</span></div>
 
 
             <div class=" text-start px-3 py-3 mb-4 text-body-tertiary"><i class="bi bi-google-play"></i><span
-                    class="ms-4">Google Play Store</span></div>
+                    class="ms-3">Google Play Store</span></div>
         </div>
     </div>
     <div class="p-0 position-relative " id="mainPage">
         <nav class="navbar navbar-light p-0 sticky-top d-flex  align-items-center">
             <div class="container-fluid align-items-center">
                 <div class="navL d-flex w-50">
-                    <button class="navbar-toggler d-xl-none p-0 border-0" type="button"
-                        data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <button class="navbar-toggler d-xl-none p-0 border-0" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <form class="d-flex position-relative ms-2">
@@ -149,8 +168,8 @@
                     </form>
                 </div>
                 <div class="cotainer d-flex justify-content-between align-items-center">
-                    <div class="dropdown"><button type="button" data-bs-toggle="dropdown" aria-expanded="false"><i
-                                class="bi bi-bell fs-5"></i></button>
+                    <div class="dropdown" id="bell"><button type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false"><i class="bi bi-bell fs-5"></i></button>
                         <ul class="dropdown-menu p-0" id="bell-list">
                             <div class="d-flex justify-content-between align-items-center px-4 py-3 border-bottom">
                                 <div class="w-75 m-0">
@@ -169,7 +188,7 @@
                             <div id="bell-list-content">
                                 <li class="px-4 py-2">
                                     <div class="d-flex"><img src="./img/avatar-1.jpg" alt="">
-                                        <div class="ms-2"><span><span>Your order is placed</span>&nbsp;<span
+                                        <div class="ms-3"><span><span>Your order is placed</span>&nbsp;<span
                                                     class="text-body-secondary">waiting for shipping</span>
                                             </span><br><span><svg xmlns="http://www.w3.org/2000/svg" width="12"
                                                     height="12" fill="currentColor" class="bi bi-clock text-muted"
@@ -185,7 +204,7 @@
                                 </li>
                                 <li class="px-4 py-3">
                                     <div class="d-flex"><img src="./img/avatar-2.jpg" alt="">
-                                        <div class="ms-2"><span>Jitu Chauhan&nbsp;<span
+                                        <div class="ms-3"><span>Jitu Chauhan&nbsp;<span
                                                     class="text-body-secondary">answered to your pending order list with
                                                     notes</span>
 
@@ -204,7 +223,7 @@
                                 </li>
                                 <li class="px-4 py-3">
                                     <div class="d-flex"><img src="./img/avatar-5.jpg" alt="">
-                                        <div class="ms-2"><span>You have new messages &nbsp;<span
+                                        <div class="ms-3"><span>You have new messages &nbsp;<span
                                                     class="text-body-secondary">2 unread messages</span>
 
                                             </span><br><span><svg xmlns="http://www.w3.org/2000/svg" width="12"
@@ -251,152 +270,109 @@
                         <button type="button" class="text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><img
                                 src="./img/round-close.svg" class="m-0" alt=""></button>
                     </div>
-                    <div class="side-nav-2 w-100">
+                    <div class="side-nav-2 w-100 px-3">
                         <button class=" text-start px-3 py-3 w-100" type="button"><i class="bi bi-house"></i><span
-                                class="ms-4">Dashboards</span></button>
+                                class="ms-3">Dashboards</span></button>
 
 
-                        <div class=" text-start px-3 py-xl-2 menuL-title"><span>Store Managements</span></div>
-                        <button class=" text-start px-4 py-3 w-100" type="button"><i class="bi bi-cart"></i><span
-                                class="ms-4">Products</span></button>
-                        <button class=" text-start px-4 py-3 w-100" type="button"><i class="bi bi-list-task"></i><span
-                                class="ms-4">Categories</span></button>
+                        <div class=" text-start px-3 py-3 menuL-title"><span>Store Managements</span></div>
+                        <button class=" text-start px-3 py-3 w-100" type="button"><i class="bi bi-cart"></i><span
+                                class="ms-3">Products</span></button>
+                        <button class=" text-start px-3 py-3 w-100" type="button"><i class="bi bi-list-task"></i><span
+                                class="ms-3">Categories</span></button>
 
-                        <button class=" text-start px-4 py-3 w-100" type="button" data-bs-toggle="collapse"
+                        <button class=" text-start px-3 py-3 w-100 orders-2" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarToggleExternalContent5" aria-controls="navbarToggleExternalContent5"
-                            aria-expanded="false" aria-label="Toggle navigation"><i class="bi bi-bag"></i><span
-                                class="ms-4">Orders</span><span class="float-end"><img src="./img/下載.svg" width="14"
-                                    height="22.39" alt=""></span></button>
+                            aria-expanded="false" aria-label="Toggle navigation"><i
+                                class="bi bi-bag"></i><span class="ms-3">Orders</span><span class="float-end"><img
+                                    class="chevron-down-5" src="./img/下載.svg" width="14" height="22.39"
+                                    alt=""></span></button>
                         <div class="collapse" id="navbarToggleExternalContent5">
                             <div class="option-list ps-0 position-relative">
-                                <button class=" text-start ps-5 py-3 w-100" type="button">Projects</button>
-                                <button class=" text-start ps-5 py-3 w-100">Orders List</button>
+                                <button class=" text-start ps-4 py-2 w-100 position-relative" type="button"><span
+                                        class="ms-4">
+                                        <div class="dot"></div>Projects
+                                    </span></button>
+                                <button class=" text-start ps-4 py-2 w-100 position-relative"><span class="ms-4">
+                                        <div class="dot"></div>Orders List
+                                    </span></button>
                             </div>
                         </div>
 
-                        <button class=" text-start px-4 py-3 w-100" type="button"><i class="bi bi-shop"></i><span
-                                class="ms-4">Sellers / Vendors</span></button>
+                        <button class=" text-start px-3 py-3 w-100" type="button"><i class="bi bi-shop"></i><span
+                                class="ms-3">Sellers / Vendors</span></button>
 
-                        <button class=" text-start px-4 py-3 w-100" type="button"><i class="bi bi-people"></i><span
-                                class="ms-4">Customers</span></button>
+                        <button class=" text-start px-3 py-3 w-100" type="button"><i class="bi bi-people"></i><span
+                                class="ms-3">Customers</span></button>
 
-                        <button class=" text-start px-4 py-3 w-100" type="button"><i class="bi bi-star"></i><span
-                                class="ms-4">Reviews</span></button>
+                        <button class=" text-start px-3 py-3 w-100" type="button"><i class="bi bi-star"></i><span
+                                class="ms-3">Reviews</span></button>
 
-                        <button class=" text-start px-3 py-3 w-100" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarToggleExternalContent20"
-                            aria-controls="navbarToggleExternalContent20" aria-expanded="false"
-                            aria-label="Toggle navigation"><i class=" bi bi-arrow-90deg-down"></i><span
-                                class="ms-4">Menu Level</span><span class="float-end"><img src="./img/下載.svg" width="14"
-                                    height="22.39" alt=""></span></button>
-                        <div class="collapse" id="navbarToggleExternalContent20">
-                            <div class="option-list ps-0">
-                                <button class=" text-start pe-3 ps-5 py-2 w-100" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#navbarToggleExternalContent21"
-                                    aria-controls="navbarToggleExternalContent21" aria-expanded="false"
-                                    aria-label="Toggle navigation"><span class="ms-2"> Two Level
-                                    </span><span class="float-end"><img src="./img/下載.svg" width="14" height="22.39"
-                                            alt=""></span></button>
-                                <div class="collapse" id="navbarToggleExternalContent21">
-                                    <div class="option-list ps-0">
-                                        <button class=" text-start pe-3 ps-5 py-2 w-100"><span class="ms-2">NavItem
-                                                1</span></button>
-                                        <button class=" text-start pe-3 ps-5 py-2 w-100"><span class="ms-2">NavItem
-                                                2</span></button>
-                                    </div>
-                                </div>
-                                <button class=" text-start pe-3 ps-5 py-2 w-100" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#navbarToggleExternalContent22"
-                                    aria-controls="navbarToggleExternalContent22" aria-expanded="false"
-                                    aria-label="Toggle navigation"><span class="ms-2"> Three Level
-                                    </span><span class="float-end"><img src="./img/下載.svg" width="14" height="22.39"
-                                            alt=""></span></button>
-                                <div class="collapse" id="navbarToggleExternalContent22">
-                                    <div class="option-list ps-0">
-                                        <button class=" text-start ps-5 pe-3 py-2 w-100" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent23"
-                                            aria-controls="navbarToggleExternalContent23" aria-expanded="false"
-                                            aria-label="Toggle navigation"><span class="ms-2">NavItem 1
-                                            </span><span class="float-end"><img src="./img/下載.svg" width="14"
-                                                    height="22.39" alt=""></span></button>
-                                        <div class="collapse" id="navbarToggleExternalContent23">
-                                            <div class="option-list ps-4">
-                                                <button class=" text-start pe-3 ps-5 py-2 w-100">NavChild Item
-                                                    1</button>
-                                                <!-- <div class="pe-3 py-2">NavItem 2</div> -->
-                                            </div>
-                                        </div>
-                                        <button class=" text-start px-5 py-2 w-100"><span class="ms-2">NavItem
-                                                2</span></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class=" text-start px-3 py-xl-2 menuL-title"><span>Site Settings</span><span
+                        <div class=" text-start px-3 py-3 menuL-title"><span>Site Settings</span><span
                                 class="badge bg-primary-subtle text-primary-emphasis ms-4">Coming Soon</span></div>
 
-                        <div class=" text-start px-4 py-3 text-body-tertiary"><i class="bi bi-newspaper"></i><span
-                                class="ms-4">Blog</span></div>
+                        <div class=" text-start px-3 py-3 text-body-tertiary"><i class="bi bi-newspaper"></i><span
+                                class="ms-3">Blog</span></div>
 
-                        <div class=" text-start px-4 py-3 text-body-tertiary"><i class="bi bi-images"></i><span
-                                class="ms-4">Media</span></div>
+                        <div class=" text-start px-3 py-3 text-body-tertiary"><i class="bi bi-images"></i><span
+                                class="ms-3">Media</span></div>
 
-                        <div class=" text-start px-4 py-3 text-body-tertiary"><i class="bi bi-gear"></i><span
-                                class="ms-4">Store
+                        <div class=" text-start px-3 py-3 text-body-tertiary"><i class="bi bi-gear"></i><span
+                                class="ms-3">Store
                                 Settings</span></div>
 
-                        <div class=" text-start px-3 py-xl-2 menuL-title"><span>Support</span><span
+                        <div class=" text-start px-3 py-3 menuL-title"><span>Support</span><span
                                 class="badge bg-primary-subtle text-primary-emphasis ms-4">Coming Soon</span></div>
 
-                        <div class=" text-start px-4 py-3 text-body-tertiary"><i class="bi bi-headphones"></i><span
-                                class="ms-4">Support Ticket
+                        <div class=" text-start px-3 py-3 text-body-tertiary"><i class="bi bi-headphones"></i><span
+                                class="ms-3">Support Ticket
                             </span></div>
 
-                        <div class=" text-start px-4 py-3 text-body-tertiary"><i class="bi bi-question-circle"></i><span
-                                class="ms-4">Help Center
+                        <div class=" text-start px-3 py-3 text-body-tertiary"><i class="bi bi-question-circle"></i><span
+                                class="ms-3">Help Center
                             </span></div>
 
-                        <div class=" text-start px-4 py-3 text-body-tertiary"><i class="bi bi-infinity"></i><span
-                                class="ms-4">How
+                        <div class=" text-start px-3 py-3 text-body-tertiary"><i class="bi bi-infinity"></i><span
+                                class="ms-3">How
                                 FreshCart
                                 Works</span></div>
 
-                        <div class=" text-start px-3 py-xl-2 menuL-title"><span>Our Apps</span></div>
+                        <div class=" text-start px-3 py-3 menuL-title"><span>Our Apps</span></div>
 
 
-                        <div class=" text-start px-4 py-3 text-body-tertiary"><i class="bi bi-apple"></i><span
-                                class="ms-4">Apple
+                        <div class=" text-start px-3 py-3 text-body-tertiary"><i class="bi bi-apple"></i><span
+                                class="ms-3">Apple
                                 Store</span></div>
 
 
-                        <div class=" text-start px-4 py-3 mb-4 text-body-tertiary"><i
-                                class="bi bi-google-play"></i><span class="ms-4">Google Play Store</span></div>
+                        <div class=" text-start px-3 py-3 mb-4 text-body-tertiary"><i
+                                class="bi bi-google-play"></i><span class="ms-3">Google Play Store</span></div>
                     </div>
                 </div>
             </div>
         </nav>
-        <div class="content-page py-4 px-4 d-flex flex-column">
-            <div class="content-title d-flex justify-content-between align-items-center flex-column ">
-                <div class="title mb-4 px-5 w-100">
-                    <h2 class="fw-bolder w-50">Order List</h2>
-                    <h6>Dashboard&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbspOrder List</h6>
+        <div class="content-page py-4 px-lg-0 px-xl-5 mx-md-5 d-flex flex-column">
+            <div class="content-title d-flex justify-content-between align-items-center flex-column px-xxl-5 px-xl-0">
+                <div class="title mb-4 px-2 w-100">
+                    <h2 class="fw-medium w-50">Order List</h2>
+                    <h6><span class="text-Dashboard">Dashboard</span>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbspOrder List</h6>
                 </div>
-                <div class="order w-100 mb-5 px-5 ">
+                <div class="order w-100 mb-5 px-2 ">
                     <div class="card p-0 border-0 o-card">
                         <div
                             class="card-header bg-white d-flex justify-content-between flex-column flex-md-row order-search py-4">
-                            <form class="d-flex position-relative ms-4">
+                            <form class="d-flex position-relative">
                                 <input class="form-control rounded-0 py-0 w-100" id="search-area" type="search"
                                     placeholder="Search" aria-label="Search">
                             </form>
-                            <div class="dropdown ms-4 pt-3 pt-md-0" id="Status-dropdown-menu">
+                            <div class="dropdown pt-3 pt-md-0" id="Status-dropdown-menu">
                                 <a class="btn text-start border d-flex justify-content-between align-items-center"
                                     href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
                                     aria-expanded="false">
                                     <span>Status</span><img src="./img/下載.svg" width="14" height="14" alt="">
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuLink">
                                     <li><a class="dropdown-item" href="#">Status</a></li>
                                     <li><a class="dropdown-item" href="#">Sucess</a></li>
                                     <li><a class="dropdown-item" href="#">Pending</a></li>
@@ -441,7 +417,7 @@
                                         <th>01 May 2023 (10:12 am)</th>
                                         <th>Paypal</th>
                                         <th><span
-                                                class="badge fw-bolder bg-success-subtle text-success-emphasis">Success</span>
+                                                class="badge fw-bolder success">Success</span>
                                         </th>
                                         <th>$12.99</th>
                                         <th><i class="bi bi-three-dots-vertical"></i></th>
@@ -460,7 +436,7 @@
                                         <th>20 April 2023 (9:20 am)</th>
                                         <th>COD</th>
                                         <th><span
-                                                class="badge fw-bolder bg-success-subtle text-success-emphasis">Success</span>
+                                                class="badge fw-bolder success">Success</span>
                                         </th>
                                         <th>$8.19</th>
                                         <th><i class="bi bi-three-dots-vertical"></i></th>
@@ -479,7 +455,7 @@
                                         <th>11 March 2023 (7:12 pm)</th>
                                         <th>Paypal</th>
                                         <th><span
-                                                class="badge fw-bolder bg-warning-subtle text-warning-emphasis">Pending</span>
+                                                class="badge pending">Pending</span>
                                         </th>
                                         <th>$8.19</th>
                                         <th><i class="bi bi-three-dots-vertical"></i></th>
@@ -498,7 +474,7 @@
                                         <th>09 March 2023 (6:23 pm)</th>
                                         <th>Stripe</th>
                                         <th><span
-                                                class="badge fw-bolder bg-success-subtle text-success-emphasis">Success</span>
+                                                class="badge fw-bolder success">Success</span>
                                         </th>
                                         <th>$23.11</th>
                                         <th><i class="bi bi-three-dots-vertical"></i></th>
@@ -517,7 +493,7 @@
                                         <th>18 Feb 2022 (12:20 pm)</th>
                                         <th>COD</th>
                                         <th><span
-                                                class="badge fw-bolder bg-success-subtle text-success-emphasis">Success</span>
+                                                class="badge fw-bolder success">Success</span>
                                         </th>
                                         <th>$2.00</th>
                                         <th><i class="bi bi-three-dots-vertical"></i></th>
@@ -536,7 +512,7 @@
                                         <th>12 Feb 2022 (4:56 pm)</th>
                                         <th>Paypal</th>
                                         <th><span
-                                                class="badge fw-bolder bg-danger-subtle text-danger-emphasis">Cancel</span>
+                                                class="badge cancel">Cancel</span>
                                         </th>
                                         <th>$56.00</th>
                                         <th><i class="bi bi-three-dots-vertical"></i></th>
@@ -554,7 +530,7 @@
                                         <th>Diann Watson</th>
                                         <th>22 Jan 2023 (1:20 pm)</th>
                                         <th>Paypal</th>
-                                        <th><span class="badge bg-success-subtle text-success-emphasis">Success</span>
+                                        <th><span class="badge success">Success</span>
                                         </th>
                                         <th>$23.00</th>
                                         <th><i class="bi bi-three-dots-vertical"></i></th>
@@ -563,7 +539,7 @@
                             </table>
                         </div>
                         <div
-                            class="card-footer order-page bg-white px-3 d-flex align-items-center justify-content-between">
+                            class="card-footer order-page bg-white px-3 d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between">
                             <div>Showing 1 to 8 of 12 entries</div>
                             <div aria-label="Page navigation">
                                 <ul class="pagination justify-content-end mt-3" id="page-item">
@@ -586,6 +562,7 @@
     </div>
     </div>
     <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/js.js"></script>
 </body>
 
 </html>
