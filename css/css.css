@@ -31,7 +31,7 @@ body {
     height: 100vh;
     background-color: #ffffff;
     height: 100vh !important;
-    font-family: "Inter", sans-serif!important;
+    font-family: "Inter", sans-serif !important;
     overflow: hidden;
 }
 
@@ -90,7 +90,6 @@ button {
 .content-page {
     background-color: #ffffff;
     height: 100vh;
-    overflow-y: scroll;
 }
 
 .content-title {
@@ -225,7 +224,7 @@ nav {
 }
 
 .text-Dashboard {
-    color: rgb(10, 173 , 10);
+    color: rgb(10, 173, 10);
 }
 
 .side-nav-2 {
@@ -238,6 +237,16 @@ nav {
     position: absolute;
     top: 63px;
     width: 279px;
+}
+
+.burger:hover {
+    background-color: transparent;
+    box-shadow: none;
+    color: #0aad0a;
+}
+
+.burger:focus {
+    box-shadow: none!important;
 }
 
 #bell::after {
@@ -336,19 +345,19 @@ button img {
 }
 
 .success {
-    background-color: #ceefce!important;
-    color: rgb(4, 69, 4)!important;
-    font-weight: 700!important;
+    background-color: #ceefce !important;
+    color: rgb(4, 69, 4) !important;
+    font-weight: 700 !important;
 }
 
 .pending {
-    background-color: #fff3cd!important;
-    color: rgb(102, 77, 3)!important;
+    background-color: #fff3cd !important;
+    color: rgb(102, 77, 3) !important;
 }
 
 .cancel {
-    background-color: #f8d6d6!important;
-    color: rgb(88, 19, 19)!important;
+    background-color: #f8d6d6 !important;
+    color: rgb(88, 19, 19) !important;
 }
 
 #menuL {
@@ -356,6 +365,7 @@ button img {
     height: 100vh;
     background-color: #ffffff;
     transition: 500ms;
+    border-right: 1px dashed rgb(223, 226, 225);
 }
 
 #mainPage {
@@ -415,17 +425,6 @@ button img {
     #help-box {
         display: none;
     }
-
-    /* #search-area {
-        width: 15vw;
-    } */
-
-    footer {
-        width: 100%;
-        /* margin-left: 70px; */
-        position: absolute;
-        bottom: -20px;
-    }
 }
 
 @media (max-width:991px) {
@@ -445,8 +444,8 @@ button img {
         width: 100%
     }
 
-    #search-area{
-        width: 100%!important;
+    #search-area {
+        width: 100% !important;
     }
 
 }
@@ -456,8 +455,9 @@ button img {
     .p-3.d-flex.justify-content-md-between.justify-content-sm-center {
         justify-content: center !important;
     }
+
     .content-title {
-        margin: 0 0!important;
+        margin: 0 0 !important;
     }
 }
 
