@@ -223,6 +223,11 @@ nav {
     overflow-y: scroll;
 }
 
+#floatingSelect {
+    height: 38px!important;
+    min-height: 38px!important;
+}
+
 .text-Dashboard {
     color: rgb(10, 173, 10);
 }

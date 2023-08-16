@@ -29,3 +29,20 @@ threeLevel.addEventListener('click', () => {
 navItem.addEventListener('click', () => {
     chevronDown4.classList.toggle('rotate')
 });
+
+function checkedAll(allCheck) {
+    const checkboxes = document.querySelectorAll("input[type ='checkbox']")
+    // console.log(checkboxes);
+    // console.log(allCheck);
+    if (allCheck.checked == true) {
+        checkboxes.forEach(function (checkbox) {
+            checkbox.checked = true;
+        });
+    } else {
+        checkboxes.forEach(function (checkbox) {
+            checkbox.checked = false;
+        }); 
+    }
+}
+
+
