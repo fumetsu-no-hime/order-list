@@ -392,6 +392,10 @@ button img {
     #offcanvasNavbar {
         display: none;
     }
+
+    .offcanvas-backdrop {
+        display: none;
+    }
 }
 
 
