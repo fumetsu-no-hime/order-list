@@ -388,6 +388,12 @@ button img {
     }
 }
 
+@media (min-width:1200px) {
+    #offcanvasNavbar {
+        display: none;
+    }
+}
+
 
 @media (max-width:1140px) {
     .side-nav span {
